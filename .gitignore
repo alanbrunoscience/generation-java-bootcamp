@@ -1,0 +1,70 @@
+# Arquivos compilados do Java
+*.class
+
+# Arquivos de saída do IDE
+*.war
+*.ear
+*.jar
+
+# Pastas geradas pelo build
+/target/
+/bin/
+/build/
+/out/
+/dist/
+
+# Pastas de dependências (Maven, Gradle, etc.)
+/.settings/
+/.gradle/
+/.idea/
+/.vscode/
+
+# Arquivos específicos do Eclipse
+.classpath
+.project
+.settings/
+
+# Arquivos específicos do IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Arquivos específicos do NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos do Maven (gerados localmente)
+dependency-reduced-pom.xml
+pom.xml.versionsBackup
+pom.xml.next
+
+# Arquivos do Gradle
+.gradle/
+build/
+
+# Arquivos de configuração local
+*.properties
+*.cfg
+*.config
+
+# Arquivos de ambiente (dev, test, prod)
+.env
+*.env
