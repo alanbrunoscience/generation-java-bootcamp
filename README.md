@@ -3,12 +3,12 @@
 <br />
 
 <div align="center">
-  <img src="https://img.shields.io/github/languages/top/conteudoGeneration/java?style=flat-square" />
-  <img src="https://img.shields.io/github/repo-size/conteudoGeneration/java?style=flat-square" />
-  <img src="https://img.shields.io/github/languages/count/conteudoGeneration/java?style=flat-square" />
-  <img src="https://img.shields.io/github/last-commit/conteudoGeneration/java?style=flat-square" />
-  <img src="https://img.shields.io/github/issues/conteudoGeneration/java?style=flat-square" />
-  <img src="https://img.shields.io/github/issues-pr/conteudoGeneration/java?style=flat-square" />
+  <img src="https://img.shields.io/github/languages/top/alanbrunoscience/java?style=flat-square" />
+  <img src="https://img.shields.io/github/repo-size/alanbrunoscience/java?style=flat-square" />
+  <img src="https://img.shields.io/github/languages/count/alanbrunoscience/java?style=flat-square" />
+  <img src="https://img.shields.io/github/last-commit/alanbrunoscience/java?style=flat-square" />
+  <img src="https://img.shields.io/github/issues/alanbrunoscience/java?style=flat-square" />
+  <img src="https://img.shields.io/github/issues-pr/alanbrunoscience/java?style=flat-square" />
 </div>
 
 ------
@@ -110,5 +110,8 @@ If you have suggestions, corrections, or improvements, feel free to:
 
 ## Contact
 
-Developed by [**Alan Bruno**](https://github.com/alanbrunoscience)  
+Developed by [**Alan Bruno**](https://github.com/alanbrunoscience)®
+
+<br>
+
 For questions, suggestions, or collaborations, feel free to reach out via GitHub or open an issue!
