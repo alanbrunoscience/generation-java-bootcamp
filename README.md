@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java Logo" width="120"/>
+</p>
+
+<br>
+
 # Java Full Stack Bootcamp - Generation Brasil
 
 <br />
