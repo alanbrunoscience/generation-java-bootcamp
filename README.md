@@ -3,12 +3,12 @@
 <br />
 
 <div align="center">
-  <img src="https://img.shields.io/github/languages/top/alanbrunoscience/java?style=flat-square" />
-  <img src="https://img.shields.io/github/repo-size/alanbrunoscience/java?style=flat-square" />
-  <img src="https://img.shields.io/github/languages/count/alanbrunoscience/java?style=flat-square" />
-  <img src="https://img.shields.io/github/last-commit/alanbrunoscience/java?style=flat-square" />
-  <img src="https://img.shields.io/github/issues/alanbrunoscience/java?style=flat-square" />
-  <img src="https://img.shields.io/github/issues-pr/alanbrunoscience/java?style=flat-square" />
+  <img src="https://img.shields.io/github/languages/top/alanbrunoscience/generation-java-bootcamp?style=flat-square" />
+  <img src="https://img.shields.io/github/repo-size/alanbrunoscience/generation-java-bootcamp?style=flat-square" />
+  <img src="https://img.shields.io/github/languages/count/alanbrunoscience/generation-java-bootcamp?style=flat-square" />
+  <img src="https://img.shields.io/github/last-commit/alanbrunoscience/generation-java-bootcamp?style=flat-square" />
+  <img src="https://img.shields.io/github/issues/alanbrunoscience/generation-java-bootcamp?style=flat-square" />
+  <img src="https://img.shields.io/github/issues-pr/alanbrunoscience/generation-java-bootcamp?style=flat-square" />
 </div>
 
 ------
