@@ -81,7 +81,7 @@ To run the code locally, you will need:
 1. Clone the repository [generation-java-bootcamp](https://github.com/alanbrunoscience/generation-java-bootcamp) inside your Eclipse/STS *Workspace* folder:
 
 ```bash
-git clone https://github.com/alanbrunoscience/generation-java-bootcamp
+git clone git@github.com:alanbrunoscience/generation-java-bootcamp.git
 ```
 
 2. **Open Eclipse/STS** and select the *Workspace* folder where you cloned the repository.  
