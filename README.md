@@ -117,4 +117,5 @@ If you have suggestions, corrections, or improvements, feel free to:
 ## Contact
 
 Developed by [**Alan Bruno**](https://github.com/alanbrunoscience)®
+
 For questions, suggestions, or collaborations, feel free to reach out via GitHub or open an issue!
