@@ -18,7 +18,7 @@ public class Example01UninitializedVariables {
 		
 		// Non-numerical types
 		char character; // Data type composed of a single 16-bit Unicode character.
-		boolean answer; // Data type composed of only two possible values: 'true' and 'false'.
+		boolean answer; // Data type composed of only two possible values: 'true' or 'false'.
 		
 		// When we declare a variable without a value, the value of the variable must be assigned later.
 		
