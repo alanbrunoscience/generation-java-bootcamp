@@ -1,6 +1,6 @@
-package class01_hello_world;
+package lesson01.helloworld;
 
-public class Example1_HelloWorld {
+public class Example01HelloWorld {
 
 	public static void main(String[] args) {
 		
