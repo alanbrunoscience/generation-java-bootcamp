@@ -25,7 +25,7 @@
 
 <br />
 
-This repository contains the **hands-on exercises developed during the Java Full Stack Bootcamp** by [Generation Brasil](https://brazil.generation.org/).
+This repository contains the **hands-on exercises developed during the Java Full Stack Bootcamp** by [Generation Brazil](https://brazil.generation.org/).
 
 It covers topics ranging from Java fundamentals to concepts such as conditional structures, loops, arrays, collections, and methods.  
 The examples are based on *Live Codes* and exercises with real-world scenarios to reinforce the content through practice.
@@ -117,5 +117,6 @@ If you have suggestions, corrections, or improvements, feel free to:
 ## Contact
 
 Developed by [**Alan Bruno**](https://github.com/alanbrunoscience)®
+
 
 For questions, suggestions, or collaborations, feel free to reach out via GitHub or open an issue!
