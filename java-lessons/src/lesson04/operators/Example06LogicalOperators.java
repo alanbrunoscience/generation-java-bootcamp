@@ -24,7 +24,20 @@ public class Example06LogicalOperators {
 		 * 
 		 */
 		
-		// Logical Operators - Negation (Examples)
+		/**
+		 * Logical Operators - Negation (! - NOT)
+		 * 
+		 * Negation Truth Table
+		 * 
+		 * *-----------*
+		 * |  A  |  !A |       
+		 * *-----------*
+		 * |  T  |  F  |
+		 * *-----------*
+		 * |  F  |  T  | 
+		 * *-----------*
+		 * 
+		 */
 		
 		int a = 10;
 		int b = 5;
