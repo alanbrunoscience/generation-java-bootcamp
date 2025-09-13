@@ -1,4 +1,4 @@
-package lesson03.datainputandoutput;
+package lesson03.inputandoutput;
 
 public class Example01PrintAndPrintln {
 

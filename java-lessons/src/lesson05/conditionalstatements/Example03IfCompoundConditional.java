@@ -1,4 +1,4 @@
-package lesson05.conditionalloops;
+package lesson05.conditionalstatements;
 
 public class Example03IfCompoundConditional {
 

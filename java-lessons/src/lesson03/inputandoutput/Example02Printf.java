@@ -1,4 +1,4 @@
-package lesson03.datainputandoutput;
+package lesson03.inputandoutput;
 
 import java.util.Locale;
 

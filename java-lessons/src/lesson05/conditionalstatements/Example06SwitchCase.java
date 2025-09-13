@@ -1,9 +1,9 @@
-package lesson05.conditionalloops;
+package lesson05.conditionalstatements;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Example07SwitchCaseWithDefault {
+public class Example06SwitchCase {
 
 	public static void main(String[] args) {
 
@@ -30,8 +30,6 @@ public class Example07SwitchCaseWithDefault {
 			case 3:
 				System.out.println("\n→ Music: 'Go The Distance - One Voice Children's Choir Cover'.");
 				break;
-			default: // Optional
-				System.out.println("\n→ Invalid option!");
 			}
 
 		}
