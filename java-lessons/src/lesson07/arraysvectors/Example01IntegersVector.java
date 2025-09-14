@@ -14,8 +14,10 @@ public class Example01IntegersVector {
 			// Vector declaration
 			int integers[] = { 10, 15, 35, 70, 140 };
 
+			// Print vector elements
 			System.out.println("******* Array's Elements *******\n");
 			for (int i = 0; i < integers.length; i++) {
+				// integers[i] → Accessing an element from a specific position
 				System.out.printf("→ %dº element of the array: %d\n", (i + 1), integers[i]);
 			}
 
