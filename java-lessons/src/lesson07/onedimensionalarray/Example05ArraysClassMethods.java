@@ -1,4 +1,4 @@
-package lesson07.arraysvectors;
+package lesson07.onedimensionalarray;
 
 import java.util.Arrays;
 import java.util.Collections;
