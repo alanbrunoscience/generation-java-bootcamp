@@ -31,6 +31,16 @@ public class Example05ArraysClassMethods {
 		 * |                                                  |  both have the same length and the same   | 
 		 * |                                                  |  elements in the same order.              |
 		 * *----------------------------------------------------------------------------------------------*
+		 * |  Arrays.toString(array)                          |  The Arrays.toString() method belongs to  | 
+		 * |                                                  |  the Arrays class in Java. It converts an |
+		 * |                                                  |  array into its string representation     |
+		 * |                                                  |  consisting of a list of the array's      |  
+		 * |                                                  |  elements. In the case of an Object Array,|
+		 * |                                                  |  if the array contains other arrays as    |
+		 * |                                                  |  elements, their string representation    |
+		 * |                                                  |  shows memory addresses instead of        |
+		 * |                                                  |  contents.                                |
+		 * *----------------------------------------------------------------------------------------------*
 		 * |  Arrays.binarySearch(array, key)                 |  Returns the position of the searched     |
 		 * |                                                  |  element in the array. The array must be  |
 		 * |                                                  |  sorted. If there are duplicates, the     |
