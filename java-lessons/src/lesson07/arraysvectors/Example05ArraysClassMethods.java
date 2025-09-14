@@ -1,5 +1,8 @@
 package lesson07.arraysvectors;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 public class Example05ArraysClassMethods {
 
 	public static void main(String[] args) {
@@ -46,8 +49,42 @@ public class Example05ArraysClassMethods {
 		 * 
 		 */
 
-		// PAREI AQUI: https://github.com/conteudoGeneration/cookbook_java_fullstack/blob/main/01_java/08.md#exemplo-08---utilizando-o-m%C3%A9todo-sort
-
+		// .sort() Method
+		
+		// Array declaration
+		String names[] = {"Samantha", "Amanda", "Mark", "Kirk", "Leo"};
+		
+		// Print the original array
+		System.out.println("*** Original Array ***\n");
+		for (int i = 0; i < names.length; i++) {
+			if (i != names.length - 1)
+				System.out.printf("→ %dº name: %s;\n", (i + 1), names[i]);
+			else
+				System.out.printf("→ %dº name: %s.\n", (i + 1), names[i]);
+		}
+		
+		// Sorting the array in ascending order
+		Arrays.sort(names);
+		
+		System.out.println("\n*** Array in Ascending Order ***\n");
+		for (int i = 0; i < names.length; i++) {
+			if (i != names.length - 1)
+				System.out.printf("→ %dº name: %s;\n", (i + 1), names[i]);
+			else
+				System.out.printf("→ %dº name: %s.\n", (i + 1), names[i]);
+		}
+		
+		// Sorting the array in descending order
+		Arrays.sort(names, Collections.reverseOrder());
+		
+		System.out.println("\n*** Array in Descending Order ***\n");
+		for (int i = 0; i < names.length; i++) {
+			if (i != names.length - 1)
+				System.out.printf("→ %dº name: %s;\n", (i + 1), names[i]);
+			else
+				System.out.printf("→ %dº name: %s.\n", (i + 1), names[i]);
+		}
+		
 	}
 
 }
