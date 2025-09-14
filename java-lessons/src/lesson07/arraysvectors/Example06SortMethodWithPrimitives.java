@@ -16,9 +16,9 @@ public class Example06SortMethodWithPrimitives {
 			else
 				System.out.printf("→ %dº number: %s.\n", (i + 1), numbers[i]);
 		}
-		
+
 		// Copy the original array
-        int[] numbersCopy = Arrays.copyOf(numbers, numbers.length);
+		int[] numbersCopy = Arrays.copyOf(numbers, numbers.length);
 
 		// Sorting the array in ascending order
 		Arrays.sort(numbersCopy);
