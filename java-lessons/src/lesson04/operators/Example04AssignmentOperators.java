@@ -10,7 +10,6 @@ public class Example04AssignmentOperators {
 		 * → Assignment Operators return a value assigned according to the indicated operation. The operation 
 		 * is performed between two operands, with the result being assigned to the first.
 		 * 
-		 *
 		 * *------------------------------------------------------------------*
 		 * | Operator | Description                    | Example | Equivalent |
 		 * *------------------------------------------------------------------*
