@@ -12,16 +12,16 @@ public class Example05SumOfTheColumns {
 		 * Matrices Properties
 		 * 
 		 * * *------------------------------------------------------------------------*
-		 * | Method | Description |
+		 * | Method                  | Description                                    |
 		 * *--------------------------------------------------------------------------*
-		 * | matriz.length | Returns the NUMBER OF ROWS of a matrix, | | | where matrix
-		 * is the name of the array. |
+		 * | matriz.length           | Counts the number of arrays (rows) that the    |
+		 * |                         | main matrix contains. Returns the NUMBER OF    |
+		 * |                         | ROWS of a matrix.                              |
 		 * *--------------------------------------------------------------------------*
-		 * | matrix[rowIndex].length | Returns the NUMBER OF COLUMNS of a | | | matrix,
-		 * where matrix is the name of the | | | array and rowIndex is a variable that |
-		 * | | represents the row index in the repetition | | | structure. If the matrix
-		 * has the same | | | number of rows and columns, you can use the | | |
-		 * matrix.length method in both repetition | | | structures. |
+		 * | matrix[rowIndex].length | Accesses the first array (the first row) and   | 
+		 * |                         | counts the number of elements (columns) it     |
+		 * |                         | contains. Returns the NUMBER OF COLUMNS of a   |
+		 * |                         | matrix.                                        |
 		 * *--------------------------------------------------------------------------*
 		 */
 
