@@ -85,12 +85,12 @@ public class Example01ArrayList {
 		
 		System.out.println("****** Working With ArrayList ******\n");
 		
-		// Display notes added in 'grades'
+		// Display grades added in 'grades'
 		System.out.printf("→ Grades registered: %s;\n", grades); // [9.0, 7.0, 5.0, 4.0, 10.0, 4.0]
 		
 		/*
-		 * Displays the position (index) of a given note.
-		 * If there are two identical notes, the position of the first note found will be displayed.
+		 * Displays the position (index) of a given grade.
+		 * If there are two identical grades, the position of the first grade found will be displayed.
 		 */
 		System.out.printf("\n→ The position of the first occurrence of '%.2f' on list is: %d;\n", 4.0, grades.indexOf(4.0)); // 3
 		
