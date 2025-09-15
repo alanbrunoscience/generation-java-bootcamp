@@ -66,7 +66,13 @@ public class Example05SumOfTheColumns {
 			for (int i = 0; i < numOfCols; i++) {
 				System.out.printf("→ Sum of column '%d': %d\n", (i + 1), columnSums[i]);
 			}
-
+			
+			// Print the number of matrix rows and columns
+			System.out.println("\n*** Matrix Rows and Columns ***\n");
+			System.out.printf("→ The matrix has %d rows and %d columns. "
+					+ "So, the matrix is %d x %d.\n", numbers.length, numbers[0].length, 
+					numbers.length, numbers[0].length);
+		
 		}
 
 	}
