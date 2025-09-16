@@ -47,7 +47,7 @@ public class Example02ArrayListAndIterator {
 		grades.add(10.0);
 		grades.add(4.0);
 		
-		// Display grades added in 'grades' through the For... Each loop
+		// Displays grades added in 'grades' through the For... Each loop
 		System.out.println("*** Display Registered Grades - For... Each ***\n");
 		int count = 1;
 		for (Double grade : grades) {
@@ -55,7 +55,7 @@ public class Example02ArrayListAndIterator {
 			count++;
 		}
 		
-		// Display grades added in 'grades' through the For... Each loop
+		// Displays grades added in 'grades' through the For... Each loop
 		System.out.println("\n*** Display Registered Grades - Iterator Interface ***\n");
 		
 		Iterator<Double> iGrades = grades.iterator();

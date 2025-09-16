@@ -85,7 +85,7 @@ public class Example01ArrayList {
 		
 		System.out.println("****** Working With ArrayList ******\n");
 		
-		// Display grades added in 'grades'
+		// Displays grades added in 'grades'
 		System.out.printf("→ Grades registered: %s;\n", grades); // [9.0, 7.0, 5.0, 4.0, 10.0, 4.0]
 		
 		/*
