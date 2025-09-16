@@ -8,6 +8,29 @@ public class Example02ArrayListAndIterator {
 
 	public static void main(String[] args) {
 		
+		/**
+		 * Iterator Interface
+		 * 
+		 * → An Iterator is an interface used to iterate through elements of a collection (List, Set, Queue, etc.) 
+		 * uniformly, without needing to know the collection's internal implementation.
+		 * 
+		 * → It's like a "cursor" that navigates element by element.
+		 * 
+		 * Main Methods of the Iterator
+		 * 
+		 * *--------------------------------------------------------------------------*
+		 * | Method     | Description                                                 |
+		 * *--------------------------------------------------------------------------*
+		 * | hasNext()  | Returns 'true' if there are still elements to iterate over. |
+		 * *--------------------------------------------------------------------------*
+		 * | next()     | Returns the next element in the collection. It throws a     |
+		 * |            | 'NoSuchElementException' if no other element is present.    |
+		 * *--------------------------------------------------------------------------*
+		 * | remove()   | Removes the last element returned by next().                |
+		 * *--------------------------------------------------------------------------*
+		 * 
+		 */
+		
 		Locale.setDefault(Locale.US);
 		
 		// Creates the Collection ArrayList, of type Double, called 'grades'
