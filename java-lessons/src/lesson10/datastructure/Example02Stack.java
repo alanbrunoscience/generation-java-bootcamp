@@ -49,29 +49,26 @@ public class Example02Stack {
 		 * Main Methods of the Stack Class
 		 * 
 		 * *--------------------------------------------------------------------------------------------*
-		 * | Method | Description |
+		 * | Method            | Description                                                            |
 		 * *--------------------------------------------------------------------------------------------*
-		 * | push() | This method is used to add an element to the top | | | of the
-		 * stack. |
+		 * | push()            | This method is used to add an element to the top of the stack.         |
 		 * *--------------------------------------------------------------------------------------------*
-		 * | size() | This method is used to return the size of the | | | stack. |
+		 * | size()            | This method is used to return the size of the stack.                   |
 		 * *--------------------------------------------------------------------------------------------*
-		 * | clear() | This method is used to remove all elements from | | | the stack.
-		 * |
+		 * | clear()           | This method is used to remove all elements from the stack.             |
 		 * *--------------------------------------------------------------------------------------------*
-		 * | pop() | This method is used to remove and return the | | | element at the
-		 * top of the stack. |
+		 * | pop()             | This method is used to remove and return the element at the top of the |  
+		 * |                   | stack.                                                                 |
 		 * *--------------------------------------------------------------------------------------------*
-		 * | isEmpty() | This method is used to check if the stack is empty | | | or
-		 * not. It returns 'true' if the stack is empty, | | | otherwise 'false'. |
+		 * | isEmpty()         | This method is used to check if the stack is empty or not. It returns  |
+		 * |                   | 'true' if the stack is empty, otherwise 'false'.                       |
 		 * *--------------------------------------------------------------------------------------------*
-		 * | contains(element) | This method is used to check if the stack contains | |
-		 * | the given element or not. It returns 'true' if the | | | stack contains the
-		 * element, otherwise 'false'. |
+		 * | contains(element) | This method is used to check if the stack contains the given element   | 
+		 * |                   | or not. It returns 'true' if the stack contains the element, otherwise |
+		 * |                   | 'false'.                                                               |
 		 * *--------------------------------------------------------------------------------------------*
-		 * | peek() | This method is used to retrieve, without removing, | | | the
-		 * element at the top of the stack, or return | | | null if the stack is empty.
-		 * |
+		 * | peek()            | This method is used to retrieve, without removing, the element at the  | 
+		 * |                   | top of the stack, or return null if the stack is empty.                |
 		 * *--------------------------------------------------------------------------------------------*
 		 * 
 		 */
@@ -86,7 +83,7 @@ public class Example02Stack {
 		stack.push("Yellow Dish");
 		stack.push("Red Dish");
 
-		System.out.println("*** Working With Stack ***\n");
+		System.out.println("*** Working With Stack ***");
 
 		// Displays elements added to the stack
 		System.out.printf("\n→ Stack's elements: %s;\n", stack);
