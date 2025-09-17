@@ -86,34 +86,34 @@ public class Example02Stack {
 		System.out.println("*** Working With Stack ***");
 
 		// Displays elements added to the stack
-		System.out.printf("\n→ Stack's elements: %s;\n", stack);
+		System.out.printf("\n→ Stack's elements: %s;\n", stack); // [Green Dish, Blue Dish, White Dish, Yellow Dish, Red Dish]
 
 		// Removes an element from the stack
-		System.out.printf("\n→ Removing an element from the top of the stack: %s;\n", stack.pop());
+		System.out.printf("\n→ Removing an element from the top of the stack: %s;\n", stack.pop()); // Red Dish
 
 		// Displays the remaining elements in the stack after removal
-		System.out.printf("\n→ Stack's elements: %s;\n", stack);
+		System.out.printf("\n→ Stack's elements: %s;\n", stack); // [Green Dish, Blue Dish, White Dish, Yellow Dish]
 
 		// Removes an element from the stack
-		System.out.printf("\n→ Removing an element from the top of the stack: %s;\n", stack.pop());
+		System.out.printf("\n→ Removing an element from the top of the stack: %s;\n", stack.pop()); // Yellow Dish
 
 		// Displays the remaining elements in the stack after removal
-		System.out.printf("\n→ Stack's elements: %s;\n", stack);
+		System.out.printf("\n→ Stack's elements: %s;\n", stack); // [Green Dish, Blue Dish, White Dish]
 
 		// Displays the element at the top of the stack
-		System.out.printf("\n→ Element at the top of the stack: %s;\n", stack.peek());
+		System.out.printf("\n→ Element at the top of the stack: %s;\n", stack.peek()); // White Dish
 
 		// Add a new dish to the stack
-		System.out.printf("\n→ Add a new dish to the stack: %s;\n", stack.push("Purple Dish"));
+		System.out.printf("\n→ Add a new dish to the stack: %s;\n", stack.push("Purple Dish")); // Purple Dish
 
 		// Displays elements of the current stack
-		System.out.printf("\n→ Displays elements of the current stack: %s;\n", stack);
+		System.out.printf("\n→ Displays elements of the current stack: %s;\n", stack); // [Green Dish, Blue Dish, White Dish, Purple Dish]
 
 		// Displays the size of the queue
-		System.out.printf("\n→ Stack's size: %s;\n", stack.size());
+		System.out.printf("\n→ Stack's size: %s;\n", stack.size()); // 4
 
 		// Finds an element in the stack
-		System.out.printf("\n→ Does the 'Green Dish' exist in the stack? %b;\n", stack.contains("Green Dish"));
+		System.out.printf("\n→ Does the 'Green Dish' exist in the stack? %b;\n", stack.contains("Green Dish")); // true
 
 		// Displays all queue elements per iteration
 		Iterator<String> iStack = stack.iterator();
@@ -131,10 +131,10 @@ public class Example02Stack {
 		stack.clear();
 
 		// Checking if the stack is empty
-		System.out.printf("\n→ Is the stack empty? %b.\n", stack.isEmpty());
+		System.out.printf("\n→ Is the stack empty? %b.\n", stack.isEmpty()); // true
 
 		// Displays the remaining elements on the stack after clearing
-		System.out.printf("\n→ Current stack: %s.\n", stack);
+		System.out.printf("\n→ Current stack: %s.\n", stack); // []
 
 	}
 
