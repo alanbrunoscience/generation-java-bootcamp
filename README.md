@@ -1,6 +1,6 @@
-<p align="center">
+<div align="center">
   <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java Logo" width="120"/>
-</p>
+</div>
 
 <br>
 
@@ -119,3 +119,4 @@ If you have suggestions, corrections, or improvements, feel free to:
 Developed by [**Alan Bruno**](https://github.com/alanbrunoscience)®
 
 For questions, suggestions, or collaborations, feel free to reach out via GitHub or open an issue!
+
