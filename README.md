@@ -103,7 +103,7 @@ git clone git@github.com:alanbrunoscience/generation-java-bootcamp.git
 
 <br />
 
-## Contributions
+## 5. Contributions
 
 This repository is part of an educational project, but contributions are always welcome!  
 If you have suggestions, corrections, or improvements, feel free to:
@@ -114,7 +114,7 @@ If you have suggestions, corrections, or improvements, feel free to:
 
 <br />
 
-## Contact
+## 6. Contact
 
 Developed by [**Alan Bruno**](https://github.com/alanbrunoscience)®
 
