@@ -3,7 +3,7 @@ package lesson10.datastructure;
 import java.util.Iterator;
 import java.util.Stack;
 
-public class Example02Stack {
+public class Example03Stack {
 
 	public static void main(String[] args) {
 
@@ -20,33 +20,69 @@ public class Example02Stack {
 		 * → The two basic operations that can be performed on a stack are pushing an
 		 * element onto the stack and popping an element from the stack.
 		 * 
-		 * - PUSH inserts an element onto the top of the stack; - POP removes the
-		 * element from the top of the stack (returning it or not).
+		 * - PUSH inserts an element onto the top of the stack; 
+		 * 
+		 * - POP removes the element from the top of the stack (returning it or not).
 		 * 
 		 * -------------------------------------------------------------------------------------------------------------
 		 * 
-		 * Stack Collection
+		 * The Deque Collection as a Stack
 		 * 
-		 * → To implement the Stack data structure, we'll use the Collection Stack, a
-		 * class that models and implements the Stack data structure, following the
-		 * 'Last In - First Out' principle. Furthermore, the Stack class provides the
-		 * basic push and pop operations and methods for emptying, searching, and
-		 * querying the stack.
+		 * → To implement the Stack data structure in Java, we use the 'Deque' (Double-Ended Queue) collection, which 
+		 * allows manipulation of elements at both ends of the structure. By using 'Deque' as a stack, we follow the 
+		 * 'LIFO (Last-In, First-Out)' principle, where the LAST ELEMENT INSERTED IS THE FIRST TO BE REMOVED.
 		 * 
 		 * Syntax:
 		 * 
-		 * Stack<T> stack = new Stack<T>();
+		 * Deque<T> stack = new ArrayDeque<T>();
 		 * 
-		 * → The default no-argument constructor creates a new, empty Stack object.
+		 * → The above constructor creates an empty 'ArrayDeque' class object.
 		 * 
-		 * → The <T> element in Java represents a Java Generic Type. It is used to
-		 * define the type of object that will be stored in the Collection. The data
-		 * type must be an object, which can be a wrapper class or a class created by
-		 * the developer.
+		 * → The <T> item represents a generic type in Java (Java Generics), allowing you to define the type of object 
+		 * that will be stored on the stack. This type must be a class—it can be a wrapper class (such as 'Integer', 
+		 * 'Double', or 'String') or a custom class created by the developer.
+		 * 
+		 * 💡 Tip
+		 * 
+		 * → Although the class name is 'ArrayDeque', when used with the appropriate methods ('push', 'pop', 'peek'), 
+		 * it behaves like a modern and efficient stack.
 		 * 
 		 * -------------------------------------------------------------------------------------------------------------
 		 * 
-		 * Main Methods of the Stack Class
+		 * Why use the ArrayDeque class?
+		 * 
+		 * → The ArrayDeque class is a modern alternative to the old Stack class, which is considered legacy 
+		 * (obsolete for new projects). It is implemented internally with a resizable array, offering superior 
+		 * performance in most scenarios.
+		 * 
+		 * → Unlike the 'Stack', which inherits from 'Vector' (a synchronized and heavier structure), the 'ArrayDeque' 
+		 * is ASYNCHRONOUS and therefore LIGHTER and FASTER in 'single-threaded' execution contexts, such as Java.
+		 * 
+		 * -------------------------------------------------------------------------------------------------------------
+		 * 
+		 * ⚠️ Note
+		 * 
+		 * → 'Single-threaded' means that the program executes one task at a time, in a single thread;
+		 * 
+		 * → 'Multi-threaded' means that the program can execute more than one task simultaneously, in multiple threads.
+		 * 
+		 * -------------------------------------------------------------------------------------------------------------
+		 * 
+		 * → Furthermore, the 'ArrayDeque' is versatile: it can be used as a queue or a stack, depending on the methods 
+		 * we choose to use.
+		 * 
+		 * → The 'ArrayDeque' collection doesn't offer index access like the 'ArrayList' collection, as it doesn't 
+		 * implement the 'List' interface, but rather the 'Deque' interface. Therefore, the 'get(index)' method isn't 
+		 * directly available on the 'ArrayDeque'.
+		 * 
+		 * → If you need to access elements by index, you must first convert the structure to an array using the
+		 * 'toArray()' method, or to a list by creating a new 'ArrayList' instance from the 'deque' 
+		 * ('new ArrayList<>(deque)'). It's worth noting that these conversions create a copy of the elements, 
+		 * which can impact efficiency depending on the use case.
+		 * 
+		 * -------------------------------------------------------------------------------------------------------------
+		 * 
+		 * Main Methods of the Collection Deque (Stack Mode)
 		 * 
 		 * *--------------------------------------------------------------------------------------------*
 		 * | Method            | Description                                                            |

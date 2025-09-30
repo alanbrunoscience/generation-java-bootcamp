@@ -18,9 +18,9 @@ public class Example01Queue {
 		 * → Therefore, the Queue allows manipulation at both ends: at the beginning (front) and at the end (tail). 
 		 * Insertions are made at the tail and Removals are made at the front.
 		 * 
-		 * → To implement the Queue data structure, we will use the Collection 'Queue', which is an ordered list of objects,
-		 * where it is only possible to insert elements at the end of the list and delete elements from the beginning of 
-		 * the list, that is, it follows the FIFO (First-In-First-Out) principle.
+		 * → To implement the Queue data structure in Java, we use the Collection Queue, which represents an ordered 
+		 * list of elements, strictly following the 'FIFO' principle. Elements are added to the end of the list and 
+		 * removed from the beginning.
 		 * 
 		 * Syntax:
 		 * 
@@ -28,9 +28,9 @@ public class Example01Queue {
 		 * 
 		 * → The default no-argument constructor creates a new, empty LinkedList object.
 		 * 
-		 * → The <T> element in Java represents a Java Generic Type. It is used to define the type of object that will 
-		 * be stored in the Collection. The data type must be an object, which can be a wrapper class or a class created
-		 * by the developer.
+		 * → The <T> item represents a generic type in Java (Java Generics), allowing you to define the type of object
+		 * that will be stored in the queue. This type must be a class—it can be a wrapper class (such as 'Integer', 
+		 * 'Double', or 'String') or a custom class created by the developer.
 		 * 
 		 * → Because we need to know the first and last elements of the list for deletions and insertions, respectively, 
 		 * the best class to use for this process is 'LinkedList', which implements the data structure called a 'Doubly 
@@ -41,6 +41,9 @@ public class Example01Queue {
 		 * 
 		 * HEAD ⇌ element1 ⇌ element2 ⇌ NULL
 		 * 
+		 * → This structure allows the LinkedList to efficiently perform insertions and removals at the ends, making it 
+		 * ideal for implementing the Queue data structure.
+		 * 
 		 * --------------------------------------------------------------------------------------------------------------
 		 * 
 		 * Main Methods of the Queue Interface
@@ -48,33 +51,30 @@ public class Example01Queue {
 		 * *--------------------------------------------------------------------------------------------*
 		 * | Method                                | Description                                        |
 		 * *--------------------------------------------------------------------------------------------*
-		 * | add(element)                          | This method is used to add an element to the end   |
-		 * |                                       | of the queue.                                      |
+		 * | add(element)                          | Adds an element to the end of the queue.           |
 		 * *--------------------------------------------------------------------------------------------*
-		 * | size()                                | This method is used to return the size of the      |
-		 * |                                       | queue.                                             |
+		 * | size()                                | Returns the size of the queue (total number of     |
+		 * |                                       | elements).                                         |
 		 * *--------------------------------------------------------------------------------------------*
-		 * | clear()                               | This method is used to remove all elements from    |
-		 * |                                       | the queue.                                         |
+		 * | clear()                               | Removes all elements from the queue.               |
 		 * *--------------------------------------------------------------------------------------------*
-		 * | remove()                              | This method is used to remove and return the first |
-		 * |                                       | element of the queue.                              |
+		 * | remove()                              | Removes and return the first element of the queue. |
+		 * |                                       | It returns 'NoSuchElementException' if the queue   |
+		 * |                                       | is empty.                                          |
 		 * *--------------------------------------------------------------------------------------------*
-		 * | isEmpty()                             | This method is used to check if the queue is empty |
-		 * |                                       | or not. It returns 'true' if the queue is empty,   |
-		 * |                                       | otherwise 'false'.                                 |
+		 * | isEmpty()                             | Checks if the queue is empty. It returns 'true' if |
+		 * |                                       | the queue is empty, otherwise 'false'.             |
 		 * *--------------------------------------------------------------------------------------------*
-		 * | contains(element)                     | This method is used to check if the queue contains |
-		 * |                                       | the given element or not. It returns 'true' if the |
-		 * |                                       | queue contains the element.                        |
+		 * | contains(element)                     | Check if the queue contains the given element or   | 
+		 * |                                       | not. It returns 'true' if the queue contains the   |
+		 * |                                       | element.                                           |
 		 * *--------------------------------------------------------------------------------------------*
-		 * | peek()                                | This method is used to retrieve, but NOT REMOVE,   |
-		 * |                                       | the element at the HEAD of this queue (the first   |
-		 * |                                       | element), or return null if the queue is empty.    |
+		 * | peek()                                | Returns, without removing, the first element of    |
+		 * |                                       | the queue, or null if it is empty.                 |
 		 * *--------------------------------------------------------------------------------------------*
 		 * | poll()                                | This method is used to RETRIEVE and REMOVE the     |
 		 * |                                       | element at the HEAD of this queue (the first       |
-		 * |                                       | element), or return null if the queue is empty.    |
+		 * |                                       | element), or return 'null' if the queue is empty.  |
 		 * *--------------------------------------------------------------------------------------------*
 		 * 
 		 */
