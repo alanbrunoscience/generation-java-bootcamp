@@ -1,10 +1,10 @@
-<p align="center">
+<div align="center">
   <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java Logo" width="120"/>
-</p>
+</div>
 
 <br>
 
-# Java Full Stack Bootcamp - Generation Brasil
+<h1 align="center">Java Full Stack Bootcamp - Generation Brasil</h1>
 
 <br />
 
@@ -103,7 +103,7 @@ git clone git@github.com:alanbrunoscience/generation-java-bootcamp.git
 
 <br />
 
-## Contributions
+## 5. Contributions
 
 This repository is part of an educational project, but contributions are always welcome!  
 If you have suggestions, corrections, or improvements, feel free to:
@@ -114,9 +114,8 @@ If you have suggestions, corrections, or improvements, feel free to:
 
 <br />
 
-## Contact
+## 6. Contact
 
 Developed by [**Alan Bruno**](https://github.com/alanbrunoscience)®
-
 
 For questions, suggestions, or collaborations, feel free to reach out via GitHub or open an issue!
