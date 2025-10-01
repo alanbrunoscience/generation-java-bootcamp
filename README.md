@@ -137,3 +137,4 @@ Developed by [**Alan Bruno**](https://github.com/alanbrunoscience)®
 For questions, suggestions, or collaborations, feel free to reach out via:  
 - 🌐 [GitHub Issues](../../issues)
 
+<br />
