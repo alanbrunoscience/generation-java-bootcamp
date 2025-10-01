@@ -122,7 +122,9 @@ As complementary projects of this repository, these repositories were created:
 This repository is part of an educational project; however, contributions are always welcome.  
 If you have suggestions, corrections, or improvements, feel free to:
 
-- Open an **issue**  
+<br />
+
+- Open an **issue**;
 - Submit a **pull request**  
 - Share with colleagues who are learning Java!  
 
@@ -132,4 +134,5 @@ If you have suggestions, corrections, or improvements, feel free to:
 
 Developed by [**Alan Bruno**](https://github.com/alanbrunoscience)®
 
-For questions, suggestions, or collaborations, feel free to reach out via GitHub or open an issue!
+For questions, suggestions, or collaborations, feel free to reach out via:  
+- 🌐 [GitHub Issues](../../issues)
