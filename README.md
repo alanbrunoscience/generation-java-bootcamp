@@ -103,9 +103,19 @@ git clone git@github.com:alanbrunoscience/generation-java-bootcamp.git
 
 <br />
 
-## 5. Contributions
+## 5. Complementary Projects
 
-This repository is part of an educational project, but contributions are always welcome!  
+As complementary projects of this repository, these repositories were created:
+
+<br />
+
+• **[generation-java-calculator](https://github.com/alanbrunoscience/generation-java-calculator)** _(to complement the study about methods and packages)_;
+
+<br />
+
+## 6. Contributions
+
+This repository is part of an educational project; however, contributions are always welcome.  
 If you have suggestions, corrections, or improvements, feel free to:
 
 - Open an **issue**  
@@ -114,7 +124,7 @@ If you have suggestions, corrections, or improvements, feel free to:
 
 <br />
 
-## 6. Contact
+## 7. Contact
 
 Developed by [**Alan Bruno**](https://github.com/alanbrunoscience)®
 
