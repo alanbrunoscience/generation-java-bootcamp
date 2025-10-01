@@ -78,6 +78,8 @@ To run the code locally, you will need:
 
 ### 4.1. Importing Projects
 
+<br />
+
 1. Clone the repository [generation-java-bootcamp](https://github.com/alanbrunoscience/generation-java-bootcamp) inside your Eclipse/STS *Workspace* folder:
 
 ```bash
@@ -95,6 +97,8 @@ git clone git@github.com:alanbrunoscience/generation-java-bootcamp.git
 
 ### 4.2. Running a Java Project
 
+<br />
+
 1. In the **Package Explorer** tab, locate the project.  
 2. Open the class you want to run.  
 3. Click the **Run** button <img src="https://i.imgur.com/MtBQjUp.png" title="source: imgur.com" width="3%"/> to execute the application.  
@@ -109,7 +113,7 @@ As complementary projects of this repository, these repositories were created:
 
 <br />
 
-• **[generation-java-calculator](https://github.com/alanbrunoscience/generation-java-calculator)** _(to complement the study about methods and packages)_;
+1. _**[generation-java-calculator](https://github.com/alanbrunoscience/generation-java-calculator)** (to complement the study about methods and packages)_;
 
 <br />
 
