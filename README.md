@@ -125,7 +125,7 @@ If you have suggestions, corrections, or improvements, feel free to:
 <br />
 
 - Open an **issue**;
-- Submit a **pull request**  
+- Submit a **pull request**;
 - Share with colleagues who are learning Java!  
 
 <br />
@@ -136,3 +136,4 @@ Developed by [**Alan Bruno**](https://github.com/alanbrunoscience)®
 
 For questions, suggestions, or collaborations, feel free to reach out via:  
 - 🌐 [GitHub Issues](../../issues)
+
