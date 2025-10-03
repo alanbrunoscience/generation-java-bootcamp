@@ -2,7 +2,7 @@
   <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java Logo" width="120"/>
 </div>
 
-<br>
+<br />
 
 <h1 align="center">Java Full Stack Bootcamp - Generation Brasil</h1>
 
@@ -76,7 +76,7 @@ To run the code locally, you will need:
 
 <br />
 
-### 4.1. Importing Projects
+### 4.1. Importing the Project
 
 <br />
 
