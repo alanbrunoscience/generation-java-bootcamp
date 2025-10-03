@@ -115,6 +115,8 @@ As complementary projects of this repository, these repositories were created:
 
 1. _**[generation-java-calculator](https://github.com/alanbrunoscience/generation-java-calculator)** (to complement the study about methods and packages)_;
 
+2. _**[generation-bank-account-java](https://github.com/alanbrunoscience/generation-bank-account-java)** (to complement the study about Object-Oriented Programming (OOP))_.
+
 <br />
 
 ## 6. Contributions
