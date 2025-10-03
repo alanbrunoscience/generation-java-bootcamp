@@ -65,6 +65,8 @@ The examples are based on *Live Codes* and exercises with real-world scenarios t
 
 ## 3. Requirements
 
+<br />
+
 To run the code locally, you will need:
 
 - [Java JDK 21+](https://www.oracle.com/java/technologies/downloads/#jdk21)
@@ -109,6 +111,8 @@ git clone git@github.com:alanbrunoscience/generation-java-bootcamp.git
 
 ## 5. Complementary Projects
 
+<br />
+
 As complementary projects of this repository, these repositories were created:
 
 <br />
@@ -120,6 +124,8 @@ As complementary projects of this repository, these repositories were created:
 <br />
 
 ## 6. Contributions
+
+<br />
 
 This repository is part of an educational project; however, contributions are always welcome.  
 If you have suggestions, corrections, or improvements, feel free to:
@@ -133,6 +139,8 @@ If you have suggestions, corrections, or improvements, feel free to:
 <br />
 
 ## 7. Contact
+
+<br />
 
 Developed by [**Alan Bruno**](https://github.com/alanbrunoscience)®
 
