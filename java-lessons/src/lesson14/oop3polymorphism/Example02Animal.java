@@ -11,7 +11,6 @@ public class Example02Animal {
 	 */
 
 	// Parent class (Superclass)
-	// FIX: Declared as 'static' so it can be accessed from the static main method.
 	public static class Animal {
 
 		/**
@@ -23,7 +22,6 @@ public class Example02Animal {
 	}
 
 	// Child class (Subclass) that inherits from Animal
-	// FIX: Declared as 'static' so it can be accessed from the static main method.
 	public static class Cat extends Animal {
 
 		/**
@@ -40,7 +38,6 @@ public class Example02Animal {
 	/**
 	 * Another child class for comparison.
 	 */
-	// This class was already correctly declared as 'static'.
 	public static class Dog extends Animal {
 		@Override
 		public void makeSound() {
@@ -50,9 +47,6 @@ public class Example02Animal {
 
 	public static void main(String[] args) {
 		// Runtime Polymorphism in action:
-
-		// Now, all objects can be instantiated correctly because the inner classes
-		// are 'static'.
 
 		// 1. Reference type is Animal, Object type is Animal
 		Animal genericAnimal = new Animal();
