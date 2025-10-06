@@ -117,9 +117,11 @@ As complementary projects of this repository, these repositories were created:
 
 <br />
 
-1. _**[generation-java-calculator](https://github.com/alanbrunoscience/generation-java-calculator)** (to complement the study about methods and packages)_;
+1. _**[generation-java-calculator](https://github.com/alanbrunoscience/generation-java-calculator)** (to complement the study about `methods` and `packages`)_;
 
-2. _**[generation-bank-account-java](https://github.com/alanbrunoscience/generation-bank-account-java)** (to complement the study about Object-Oriented Programming (OOP))_.
+2. _**[generation-bank-account-java](https://github.com/alanbrunoscience/generation-bank-account-java)** (to complement the study about `Object-Oriented Programming (OOP)`)_;
+
+3. _**[generation-java-exceptions](https://github.com/alanbrunoscience/generation-java-exceptions)** (to complement the study about `Exceptions`, more precisely about the `throws` clause)_.
 
 <br />
 
@@ -146,3 +148,4 @@ Developed by [**Alan Bruno**](https://github.com/alanbrunoscience)®
 
 For questions, suggestions, or collaborations, feel free to reach out via:  
 - 🌐 [GitHub Issues](../../issues)
+
