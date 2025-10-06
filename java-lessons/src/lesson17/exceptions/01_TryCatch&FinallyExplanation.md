@@ -18,7 +18,7 @@ The **`try...catch...finally`** construct is a fundamental feature in Java for *
 
 <br />
 
-------
+---
 
 ## 2. `catch`
 
@@ -36,7 +36,7 @@ The **`try...catch...finally`** construct is a fundamental feature in Java for *
 
 <br />
 
-------
+---
 
 ## 3. `finally`
 
@@ -47,5 +47,41 @@ The **`try...catch...finally`** construct is a fundamental feature in Java for *
 <br />
 
 - **How it works:** This block is **optional**, but if present, it **will always be executed** after the completion of the **`try`** and **`catch`** blocks. It is the ideal place to **close resources** opened in the **`try`** (like **`Scanner`** objects, database connections, or files), ensuring they are released and preventing resource leaks.
+
+<br />
+
+---
+
+# ❓ Why Should We Handle Exceptions?
+
+<br />
+
+Handling exceptions is crucial because it allows the program to **continue running even when an unexpected error occurs**. Without this handling, the program might terminate abruptly, leading to a poor user experience or data loss.
+
+<br />
+
+## Real-World Example:
+
+<br />
+
+Imagine you are using a banking application and your internet drops while trying to check your balance. Without exception handling, the application could **suddenly close**. With proper handling, it can display a a **friendly message**, such as: "Could not load data. Please check your connection."
+
+<br />
+
+---
+
+## 5.1. Benefits of Exception Handling
+
+<br />
+
+- **Prevents the program from crashing** when encountering an error.
+- **Allows for friendlier responses** to the user, such as explanatory messages.
+- **Facilitates code maintenance** by separating the main business logic from the error handling logic.
+- **Aids in error identification and logging** by using logs.
+- **Makes the code more professional and reliable**, especially in systems that cannot fail (such as banks, hospitals, etc.).
+
+<br />
+
+Handling exceptions is like putting a **plan B** into your program: It ensures that even when something goes wrong, the program knows how to react without simply freezing or shutting down.
 
 <br />
