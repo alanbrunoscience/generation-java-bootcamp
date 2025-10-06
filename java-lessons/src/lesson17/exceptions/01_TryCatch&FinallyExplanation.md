@@ -52,15 +52,15 @@ The **`try...catch...finally`** construct is a fundamental feature in Java for *
 
 ---
 
-# ❓ Why Should We Handle Exceptions?
+## ❓ Why Should We Handle Exceptions?
 
 <br />
 
-Handling exceptions is crucial because it allows the program to **continue running even when an unexpected error occurs**. Without this handling, the program might terminate abruptly, leading to a poor user experience or data loss.
+Handling exceptions is crucial because it allows the program to **continue running even when an unexpected error occurs**. Without this handling, the program may terminate abruptly, resulting in a poor user experience or data loss.
 
 <br />
 
-## Real-World Example:
+### Real-World Example:
 
 <br />
 
@@ -70,7 +70,7 @@ Imagine you are using a banking application and your internet drops while trying
 
 ---
 
-## 5.1. Benefits of Exception Handling
+### Benefits of Exception Handling
 
 <br />
 
