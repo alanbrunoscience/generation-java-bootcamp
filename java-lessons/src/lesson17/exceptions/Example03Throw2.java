@@ -5,6 +5,22 @@ import java.util.Scanner;
 
 public class Example03Throw2 {
 
+	/**
+	 * ⚠️ Important
+	 * 
+	 * → The 'throw' clause is used to explicitly launch an exception (in this case,
+	 * an UNCHECKED EXCEPTION: ArithmeticException).
+	 * 
+	 * → Since Unchecked Exceptions (like RuntimeException and its subclasses) are
+	 * NOT required to be handled or declared by the caller, the original code
+	 * crashed.
+	 * 
+	 * → This new version handles the exception we explicitly throw by using the
+	 * 'try-catch' structure, preventing the program from crashing and ensuring a
+	 * smooth user experience.
+	 * 
+	 */
+
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);
