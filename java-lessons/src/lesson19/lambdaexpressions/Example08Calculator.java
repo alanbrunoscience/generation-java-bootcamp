@@ -24,7 +24,7 @@ public class Example08Calculator {
 		
 			System.out.println("****************************************************");
 			System.out.println("                  Lambda Calculator                 ");
-			System.out.println("****************************************************");
+			System.out.println("****************************************************\n");
 			System.out.print("1) Enter the first number: ");
 			n1 = input.nextInt();
 			System.out.print("2) Enter the second number: ");
