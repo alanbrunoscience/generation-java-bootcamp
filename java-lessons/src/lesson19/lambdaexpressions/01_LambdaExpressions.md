@@ -10,7 +10,21 @@ Lambda Expressions were introduced in Java starting with version 8, as part of t
 
 <br />
 
-------
+---
+
+## The Role of Functional Interfaces
+
+<br />
+
+It's important to highlight that, unlike traditional functions defined with a name and body inside classes, **Lambda Expressions in Java directly depend on Functional Interfaces to work**. They do not exist in isolation: they can only be used when associated with a **Functional Interface**—an interface with **exactly ONE abstract method**.
+
+<br />
+
+This association **allows the compiler to know which operation must be executed**. Without a Functional Interface as a base, the Lambda Expression lacks context and therefore cannot be applied. This characteristic is what makes the use of lambdas so powerful yet safe, ensuring clarity in defining behaviors concisely.
+
+<br />
+
+---
 
 ## Syntax
 
@@ -22,7 +36,8 @@ parameter list -> function body
 
 <br />
 
-A Lambda Expression consists of three main components: a set of parameters, the Lambda Operator, and the function body.
+
+A Lambda Expression consists of three main components: a set of **parameters**, the **Lambda Operator (`->`)**, and the **function body**.
 
 <br />
 
