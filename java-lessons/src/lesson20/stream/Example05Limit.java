@@ -9,7 +9,7 @@ public class Example05Limit {
 	/**
 	 * Limit
 	 * 
-	 * → The limit(n) method returns the first 'n' elements of the Stream. It's
+	 * → The 'limit(n)' method returns the first 'n' elements of the Stream. It's
 	 * useful when you want to get only a portion of the original Collection.
 	 * 
 	 */
