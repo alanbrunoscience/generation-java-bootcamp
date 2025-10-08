@@ -57,10 +57,10 @@ public class Example03Sorted {
 	 * → Examples of 'Comparator' Methods:
 	 * 
 	 * • 'Comparator.reverseOrder()': Reverses the natural order of elements,
-	 * resulting in a descending sort.
+	 * resulting in a DESCENDING sort.
 	 * 
 	 * • 'Comparator.naturalOrder()': Sorts according to the natural order of
-	 * elements, resulting in an ascending sort.
+	 * elements, resulting in an ASCENDING sort.
 	 * 
 	 */
 
