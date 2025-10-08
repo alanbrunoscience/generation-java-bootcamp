@@ -10,7 +10,7 @@ A **Stream** is a sequence of objects that can pass through several chained meth
 
 <br />
 
-Many people confuse a **Stream** with a **data structure**, but they are different things. A Stream does not store data. Instead, it processes data from a structure, like a **Collection** (list, set) or an **Array**.
+Many people confuse a **Stream** with a **data structure**, but they are different things. **A Stream does not store data. Instead, it processes data from a structure**, like a **Collection** (list, set) or an **Array**.
 
 <br />
 
@@ -19,6 +19,8 @@ The simplified processing of collections using Streams was made possible by inco
 <br />
 
 * **Functional Paradigm:** Unlike imperative programming, which uses a set of instructions for the computer to execute, functional programming uses **mathematical functions** (lambda expressions). These functions receive data, apply operations, and return a result. The input does not change, but the operations can be altered to modify the output.
+
+<br />
 
 * **Lambda Expression:** A block of code that accepts parameters and returns a value. Unlike a traditional method, a lambda expression has no name and can be defined directly within the body of a method.
 
@@ -78,6 +80,8 @@ The main difference lies in **when** the data is processed:
 
 * **Collections** are data structures that store elements in memory. Every value is computed and added to the collection when inserted; the data is ready for use the moment it is stored.
 
+<br />
+
 * **Streams**, on the other hand, are sequences of data that **are only processed on demand** (lazily). This means elements are **calculated as you traverse** the Stream, performing operations like filtering, mapping, or transforming.
 
 <br />
@@ -91,6 +95,8 @@ It is important to understand that:
 <br />
 
 * A Stream **is not a data structure**. It only **receives** a Collection and performs operations on it.
+
+<br />
 
 * A Stream **does not alter the original Collection**. It generates **new results** based on the applied operations, but the original data structure remains unchanged.
 
@@ -112,6 +118,8 @@ It is important to understand that:
 <br />
 
 * **Sequential Processing:** Operations are executed **one after the other**, in the order they were written in the code.
+
+<br />
 
 * **Parallel Processing:** Operations are executed **simultaneously**, in parallel, aiming to **increase performance**. This is useful when the **order of operations doesn't matter**, allowing multiple operations to be done at once, better leveraging the power of multiple processors.
 
@@ -164,6 +172,6 @@ Let's go to the code examples!
 
 <br />
 
-***Source: https://github.com/conteudoGeneration/cookbook_java_fullstack/blob/main/01_java/19.md***
+***Source: <https://github.com/conteudoGeneration/cookbook_java_fullstack/blob/main/01_java/19.md>***
 
 <br />
