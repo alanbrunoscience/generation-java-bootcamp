@@ -22,7 +22,7 @@ public class Example03Sorted {
 
 		List<Integer> unorderedNumbers = Arrays.asList(6, 7, 8, 1, 4, 5, 9, 10, 2, 3);
 
-		System.out.println("=== Method 'sorted()' Example ===");
+		System.out.println("=== Method 'sorted()' Examples ===");
 
 		// Stream to sort the unsorted numbers in ascending order
 		List<Integer> orderedNumbersAsc = unorderedNumbers.stream()
