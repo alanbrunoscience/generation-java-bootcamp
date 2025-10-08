@@ -23,7 +23,8 @@ public class Example01Map {
 
 		System.out.println("=== Method 'map()' Example ===");
 
-		List<Integer> cubedNumbers = numbers.stream().map(x -> (int) Math.pow(x, 3)) // Intermediate Operation
+		List<Integer> cubedNumbers = numbers.stream()
+				.map(x -> (int) Math.pow(x, 3)) // Intermediate Operation
 				.collect(Collectors.toList()); // It converts a Stream into a Collection of the List type (Terminal
 												// Operation)
 
