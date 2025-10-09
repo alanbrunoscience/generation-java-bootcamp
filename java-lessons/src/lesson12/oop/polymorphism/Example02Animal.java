@@ -1,4 +1,4 @@
-package lesson14.oop3polymorphism;
+package lesson12.oop.polymorphism;
 
 public class Example02Animal {
 

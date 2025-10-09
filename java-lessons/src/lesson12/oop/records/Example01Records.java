@@ -1,4 +1,4 @@
-package lesson12.oop1;
+package lesson12.oop.records;
 
 public class Example01Records {
 

@@ -1,4 +1,4 @@
-package lesson13.oop2inheritance;
+package lesson12.oop.inheritance;
 
 public abstract class Transport {
 
