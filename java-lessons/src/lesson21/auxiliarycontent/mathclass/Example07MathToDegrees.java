@@ -2,7 +2,7 @@ package lesson21.auxiliarycontent.mathclass;
 
 import java.util.Locale;
 
-public class Example05MathCos {
+public class Example07MathToDegrees {
 
 	/**
 	 * Math.cos(x)
@@ -18,7 +18,7 @@ public class Example05MathCos {
 
 		double angleRad = 0.00;
 
-		System.out.println("====== Math.cos(x) ======\n");
+		System.out.println("=== Math.cos(x) ===\n");
 		System.out.printf("→ 1) Math.cos(%.2f) = %.2f.%n", angleRad, Math.cos(angleRad)); // 1.00
 
 	}
