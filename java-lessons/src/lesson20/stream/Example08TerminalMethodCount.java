@@ -9,8 +9,9 @@ public class Example08TerminalMethodCount {
 	 * Count
 	 * 
 	 * → The terminal 'count()' operation returns the NUMBER OF ELEMENTS PRESENT IN
-	 * THE FINAL RESULT OF THE OPERATIONS PERFORMED ON THE STREAM. In the following
-	 * example, we'll count how many states end with the letter "o":
+	 * THE FINAL RESULT OF THE OPERATIONS PERFORMED ON THE STREAM. 
+	 * 
+	 * → In the following example, we'll count how many states end with the letter "o":
 	 * 
 	 */
 
