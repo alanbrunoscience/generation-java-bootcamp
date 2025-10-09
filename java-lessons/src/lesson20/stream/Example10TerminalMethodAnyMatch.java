@@ -25,7 +25,6 @@ public class Example10TerminalMethodAnyMatch {
 		
 		boolean anyStateRio = states.stream()
 				.anyMatch(x -> x.contains("Rio"));
-		
 
 		System.out
 				.println("\n→ Does at least one state contain the word 'Rio' in its name? " + anyStateRio); // true
