@@ -5,9 +5,9 @@ import java.util.Locale;
 public class Example11MathMin {
 
 	/**
-	 * Math.max(x,y)
+	 * Math.min(x,y)
 	 * 
-	 * → Returns the largest value between 'x' and 'y'. The arguments 'x' and 'y'
+	 * → Returns the smallest value between 'x' and 'y'. The arguments 'x' and 'y'
 	 * can be 'float', 'int', 'long', or 'double'.
 	 * 
 	 */
@@ -18,9 +18,9 @@ public class Example11MathMin {
 
 		double n1 = 2.3, n2 = 12.7, n3 = -2.3, n4 = -12.7;
 
-		System.out.println("=== Math.max(x,y) ===\n");
-		System.out.printf("→ 1) Math.max(%.2f, %.2f) = %.2f;%n", n1, n2, Math.max(n1, n2)); // 12.70
-		System.out.printf("→ 2) Math.max(%.2f, %.2f) = %.2f.%n", n3, n4, Math.max(n3, n4)); // -2.30
+		System.out.println("=== Math.min(x,y) ===\n");
+		System.out.printf("→ 1) Math.min(%.2f, %.2f) = %.2f;%n", n1, n2, Math.min(n1, n2)); // 2.30
+		System.out.printf("→ 2) Math.min(%.2f, %.2f) = %.2f.%n", n3, n4, Math.min(n3, n4)); // -12.70
 
 	}
 
