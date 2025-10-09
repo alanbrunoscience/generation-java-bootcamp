@@ -5,9 +5,9 @@ import java.util.Locale;
 public class Example05MathCos {
 
 	/**
-	 * Math.cos(x)
+	 * Math.tan(x)
 	 * 
-	 * → Returns the cosine of an angle. The 'x' argument must be a double and the
+	 * → Returns the tangent of an angle. The 'x' argument must be a double and the
 	 * angle must be in radians.
 	 * 
 	 */
@@ -18,8 +18,8 @@ public class Example05MathCos {
 
 		double angleRad = 0.00;
 
-		System.out.println("=== Math.cos(x) ===\n");
-		System.out.printf("→ 1) Math.cos(%.2f) = %.2f.%n", angleRad, Math.cos(angleRad)); // 1.00
+		System.out.println("=== Math.tan(x) ===\n");
+		System.out.printf("→ 1) Math.tan(%.2f) = %.2f.%n", angleRad, Math.tan(angleRad)); // 0.00
 
 	}
 
