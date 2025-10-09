@@ -5,10 +5,9 @@ import java.util.Locale;
 public class Example07MathToDegrees {
 
 	/**
-	 * Math.cos(x)
+	 * Math.toDegrees(x)
 	 * 
-	 * → Returns the cosine of an angle. The 'x' argument must be a double and the
-	 * angle must be in radians.
+	 * → Converts an angle in radians to degrees. The 'x' argument must be double.
 	 * 
 	 */
 
@@ -16,10 +15,10 @@ public class Example07MathToDegrees {
 
 		Locale.setDefault(Locale.US);
 
-		double angleRad = 0.00;
+		double angleRad = 1.5708;
 
-		System.out.println("=== Math.cos(x) ===\n");
-		System.out.printf("→ 1) Math.cos(%.2f) = %.2f.%n", angleRad, Math.cos(angleRad)); // 1.00
+		System.out.println("=== Math.toDegrees(x) ===\n");
+		System.out.printf("→ 1) Math.toDegrees(%.2f) = %.2f.%n", angleRad, Math.toDegrees(angleRad)); // 90.00
 
 	}
 
