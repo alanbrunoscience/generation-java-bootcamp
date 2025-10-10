@@ -5,7 +5,7 @@ public class Example12StringEqualsIgnoreCase {
 	/**
 	 * String.equalsIgnoreCase(String)
 	 * 
-	 * → Compare two strings to check if they are equal, ignoring whether the
+	 * → Compares two strings to check if they are equal, ignoring whether the
 	 * letters are upper case or lower case.
 	 * 
 	 */
