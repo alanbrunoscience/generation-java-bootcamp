@@ -15,7 +15,7 @@ public class Example04StringSubstringStart {
 		int index = 2;
 
 		System.out.println("=== String.substring(start) ===\n");
-		System.out.printf("→ 1) Word: %s;%n", word); // 11
+		System.out.printf("→ 1) Word: %s;%n", word); // "Courage"
 		System.out.printf("→ 2) Characters from the index '%d' to the end of the word '%s': '%s'.%n", index, word,
 				word.substring(2)); // "urage"
 
