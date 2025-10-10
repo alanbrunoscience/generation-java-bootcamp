@@ -15,10 +15,10 @@ public class Example13StringStartsWith {
 		char firstChar = text.charAt(0);
 
 		System.out.println("=== String.startsWith(String) ===\n");
-		System.out.printf("→ 1) Is '%s' start with '%c'? '%b';%n", text, firstChar, text.startsWith("H")); // true
+		System.out.printf("→ 1) Does '%s' start with '%c'? '%b';%n", text, firstChar, text.startsWith("H")); // true
 
 		char lowerH = 'h';
-		System.out.printf("→ 2) Is '%s' start with '%c'? '%b'.%n", text, lowerH, text.startsWith("h")); // false
+		System.out.printf("→ 2) Does '%s' start with '%c'? '%b'.%n", text, lowerH, text.startsWith("h")); // false
 
 	}
 
