@@ -16,7 +16,7 @@ public class Example02StringCharAt {
 
 		System.out.println("=== String.charAt(index) ===\n");
 		System.out.printf("→ 1) Word: %s;%n", word); // "Portugal"
-		System.out.printf("→ 2) Letter in position '%d' of the '%s': %s.%n", index, word, word.charAt(index)); // 'r'
+		System.out.printf("→ 2) Letter in position '%d' of the '%s': '%s'.%n", index, word, word.charAt(index)); // 'r'
 
 	}
 

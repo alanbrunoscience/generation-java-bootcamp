@@ -15,10 +15,14 @@ public class Example03StringValueOf {
 		String numberAsString = String.valueOf(number);
 
 		System.out.println("=== String.valueOf() ===\n");
+		
 		System.out.printf("→ 1) Number: %d;%n", number); // 11
+		
 		System.out.printf("→ 2) Type of the variable 'number' ('%d'): %s;%n", number,
 				((Object) number).getClass().getSimpleName()); // Integer
-		System.out.printf("→ 3) Number '%d' transformed into a string: %s;%n", number, numberAsString); // "11"
+		
+		System.out.printf("→ 3) Number '%d' transformed into a string: '%s';%n", number, numberAsString); // "11"
+		
 		System.out.printf("→ 4) Type of the variable 'numberAsString' ('%s'): %s.%n", numberAsString,
 				numberAsString.getClass().getSimpleName()); // String
 
