@@ -1,4 +1,4 @@
-package lesson19.auxiliaryclasses.dateclass;
+package lesson19.auxiliaryclasses.dateandtime;
 
 import java.util.Date;
 
