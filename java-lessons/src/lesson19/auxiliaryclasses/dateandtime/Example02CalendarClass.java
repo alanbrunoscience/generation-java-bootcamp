@@ -26,7 +26,7 @@ public class Example02CalendarClass {
 		Calendar date = Calendar.getInstance();
 
 		System.out.println("*** Calendar Class ***\n");
-		System.out.printf("→ The current date is: %s.%n", date.getTime());
+		System.out.printf("→ The current date is: %s.%n", date.getTime()); // Tue Oct 14 15:34:55 BRT 2025
 
 	}
 
