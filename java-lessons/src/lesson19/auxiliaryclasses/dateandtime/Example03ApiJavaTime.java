@@ -16,31 +16,33 @@ public class Example03ApiJavaTime {
 	 * 
 	 * → The 'java.time API' offers 3 main Classes for working with date and time:
 	 * 
-	 * *-----------------*-------------------------------------* | Class |
-	 * Description | *-----------------*-------------------------------------* |
-	 * LocalDate | Stores only the date |
-	 * *-----------------*-------------------------------------* | LocalTime |
-	 * Stores only the time |
-	 * *-----------------*-------------------------------------* | LocalDateTime |
-	 * Stores both the date and the time |
+	 * *-----------------*-------------------------------------* 
+	 * |  Class          |  Description                        |
+	 * *-----------------*-------------------------------------* 
+	 * |  LocalDate      |  Stores only the date               |
+	 * *-----------------*-------------------------------------* 
+	 * |  LocalTime      |  Stores only the time               |
+	 * *-----------------*-------------------------------------* 
+	 * |  LocalDateTime  |  Stores both the date and the time  |
 	 * *-----------------*-------------------------------------*
 	 * 
 	 * → There are 3 main Methods to create a new Object of the 'LocalDate',
 	 * 'LocalTime', and 'LocalDateTime' Classes, as shown in the table below:
 	 * 
-	 * *-----------------*-------------------------------------------------------------*
-	 * | Method | Description |
-	 * *-----------------*-------------------------------------------------------------*
-	 * | now() | Method used to return an instance of the 'LocalDate', | | |
-	 * 'LocalTime', or 'LocalDateTime' Classes with the system's | | | current Date
-	 * and/or Time. |
-	 * *-----------------*-------------------------------------------------------------*
-	 * | of() | Method used to return an instance of the 'LocalDate', | | |
-	 * 'LocalTime', or 'LocalDateTime' Classes with specific | | | values. |
-	 * *-----------------*-------------------------------------------------------------*
-	 * | parse() | Method used to convert a String into an instance of the | | |
-	 * 'LocalDate', 'LocalTime', or 'LocalDateTime' Classes. |
-	 * *-----------------*-------------------------------------------------------------*
+	 * *-----------*-------------------------------------------------------------*
+	 * |  Methods  |  Description                                                |
+	 * *-----------*-------------------------------------------------------------*
+	 * |  now()    |  Method used to return an instance of the 'LocalDate',      | 
+	 * |           |  'LocalTime', or 'LocalDateTime' Classes with the system's  |
+	 * |           |  current Date and/or Time.                                  |
+	 * *-----------*-------------------------------------------------------------*
+	 * |  of()     |  Method used to return an instance of the 'LocalDate',      | 
+	 * |           |  'LocalTime', or 'LocalDateTime' Classes with specific      |
+	 * |           |  values.                                                    |
+	 * *-----------*-------------------------------------------------------------*
+	 * |  parse()  |  Method used to convert a String into an instance of the    |
+	 * |           |  'LocalDate', 'LocalTime', or 'LocalDateTime' Classes.      |
+	 * *-----------*-------------------------------------------------------------*
 	 * 
 	 * → In the example below, we see how to instantiate the Objects of the
 	 * 'LocalDate', 'LocalTime', and 'LocalDateTime' Classes, and then display them
