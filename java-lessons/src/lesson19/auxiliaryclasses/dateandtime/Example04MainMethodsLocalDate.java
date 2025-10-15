@@ -1,9 +1,11 @@
 package lesson19.auxiliaryclasses.dateandtime;
 
+import java.time.LocalDate;
+
 public class Example04MainMethodsLocalDate {
 
 	/**
-	 * Main Methods of the LocalDate Class
+	 * Main Methods of the 'LocalDate' Class
 	 * 
 	 * *-----------------------------*-------------------------------------------*
 	 * |  Methods                    |  Description                              |
@@ -46,10 +48,45 @@ public class Example04MainMethodsLocalDate {
 	 * *-----------------------------*-------------------------------------------*
 	 * 
 	 */
-	
+
 	public static void main(String[] args) {
+
+		// Instantiate a new LocalDate object
+		LocalDate date = LocalDate.now();
+
+		// Get details about the date
+		System.out.println("*** Main Methods of the 'LocalDate' Class ***\n");
+		System.out.printf("1) Display only the day of the date: %s;%n", date.getDayOfMonth()); // 15
+		System.out.printf("2) Display only the number of the day of the year of the date: %s;%n", date.getDayOfYear()); // 288
+		System.out.printf("3) Display only the month of the date (1-12): %s;%n", date.getMonthValue()); // 10
+		System.out.printf("4) Is '%s' a leap year? %b;%n", date.getYear(), date.isLeapYear()); // '2025' is not a leap
+																								// year (false)
+		System.out.printf("5) How many days does the month '%s' have? %d;%n", date.getMonthValue(),
+				date.lengthOfMonth()); // 10 (31 days)
+		System.out.printf("6) How many days does the year '%s' have? %d.%n", date.getYear(), date.lengthOfYear()); // 2025
+																													// (365
+																													// days)
+
+		// Instantiate three objects of the 'LocalDate' class to be used in comparing
+		// dates
+		LocalDate minorDate = LocalDate.of(2020, 11, 25);
+		LocalDate currentDate = LocalDate.now();
+		LocalDate majorDate = LocalDate.of(2025, 11, 25);
+
+		// Comparison between dates
+		System.out.println("\n=== Comparison Between Dates ===\n");
+		System.out.printf("1) Is the date '%s' the same as '%s'? %b;%n", minorDate, date, date.equals(minorDate)); // false
+		System.out.printf("2) Is the date '%s' the same as '%s'? %b;%n", currentDate, date, date.equals(currentDate)); // true
+		System.out.printf("3) Is the date '%s' the same as '%s'? %b;%n", majorDate, date, date.equals(majorDate)); // false
+
+		System.out.printf("\n4) Is the date '%s' greater than '%s'? %b (approximately %d years);%n", date, minorDate,
+				date.isAfter(minorDate), date.compareTo(minorDate)); // true (approximately 5 years)
+		System.out.printf("5) Is the date '%s' less than '%s'? %b (approximately %d years);%n", date, majorDate,
+				date.isBefore(majorDate), date.compareTo(majorDate)); // true (approximately -1 years)
 		
-		
+		System.out.printf("\n6) Is the date '%s' later than '%s'? %b;%n", date, minorDate, date.isAfter(minorDate)); // true
+		System.out.printf("7) Is the date '%s' the same as '%s'? %b;%n", date, currentDate, date.isEqual(currentDate)); // true
+		System.out.printf("8) Is the date '%s' earlier than '%s'? %b.%n", date, majorDate, date.isBefore(majorDate)); // true
 
 	}
 
