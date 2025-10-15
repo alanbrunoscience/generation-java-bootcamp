@@ -51,7 +51,7 @@ public class Example04MainMethodsLocalDate {
 
 	public static void main(String[] args) {
 
-		// Instantiate a new LocalDate object
+		// Instantiate a new 'LocalDate' object
 		LocalDate date = LocalDate.now();
 
 		// Get details about the date
