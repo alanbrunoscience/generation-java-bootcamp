@@ -10,7 +10,7 @@ public class Example04MainMethodsLocalDate {
 	 * *-----------------------------*-------------------------------------------*
 	 * |  compareTo(LocalDate date)  |  This method checks if this date is equal | 
 	 * |                             |  to another date. If they are equal, it   | 
-	 * |                             |  returns 0. If it is smaller or larger,   |
+	 * |                             |  returns '0'. If it is smaller or larger, |
 	 * |                             |  it returns the difference in years (a    |
 	 * |                             |  positive integer for a later date or a   |
 	 * |                             |  negative integer for an earlier date).   |
