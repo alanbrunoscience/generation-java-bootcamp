@@ -1,5 +1,7 @@
 package lesson19.auxiliaryclasses.numberanddecimalformat;
 
+import java.text.NumberFormat;
+
 public class Example01NumberFormat {
 
 	/**
@@ -55,6 +57,19 @@ public class Example01NumberFormat {
 	 */
 
 	public static void main(String[] args) {
+		
+		// Declaring objects of the type 'NumberFormat'
+		NumberFormat formattedNumber = NumberFormat.getNumberInstance();
+		NumberFormat formattedCurrency = NumberFormat.getCurrencyInstance();
+		NumberFormat formattedInteger = NumberFormat.getIntegerInstance();
+		NumberFormat formattedPercentage = NumberFormat.getPercentInstance();
+		
+		// Print the formatted numbers
+		System.out.println("*** Working With the 'NumberFormat' Class ***\n");
+		System.out.printf("1) Real number: %s;%n", formattedNumber.format(2.5));
+		System.out.printf("2) Monetary value: %s;%n", formattedCurrency.format(2750.00));
+		System.out.printf("3) Number without the decimal part: %s;%n", formattedInteger.format(23.5));
+		System.out.printf("4) Percentage: %s.%n", formattedPercentage.format(0.15));
 
 	}
 
