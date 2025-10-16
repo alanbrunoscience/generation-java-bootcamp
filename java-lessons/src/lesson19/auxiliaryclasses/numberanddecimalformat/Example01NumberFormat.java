@@ -66,10 +66,10 @@ public class Example01NumberFormat {
 		
 		// Print the formatted numbers
 		System.out.println("*** Working With the 'NumberFormat' Class ***\n");
-		System.out.printf("1) Real number: %s;%n", formattedNumber.format(2.5));
-		System.out.printf("2) Monetary value: %s;%n", formattedCurrency.format(2750.00));
-		System.out.printf("3) Number without the decimal part: %s;%n", formattedInteger.format(23.5));
-		System.out.printf("4) Percentage: %s.%n", formattedPercentage.format(0.15));
+		System.out.printf("1) Real number: %s;%n", formattedNumber.format(2.5)); // 2,5
+		System.out.printf("2) Monetary value: %s;%n", formattedCurrency.format(2750.00)); // R$ 2.750,00
+		System.out.printf("3) Number without the decimal part: %s;%n", formattedInteger.format(23.5)); // 24
+		System.out.printf("4) Percentage: %s.%n", formattedPercentage.format(0.15)); // 15%
 
 	}
 
