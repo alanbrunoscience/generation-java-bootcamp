@@ -1,5 +1,10 @@
 package lesson19.auxiliaryclasses.dateandtime;
 
+import java.time.Duration;
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.Period;
+
 public class Example06PeriodAndDurationClasses {
 
 	/**
@@ -31,8 +36,18 @@ public class Example06PeriodAndDurationClasses {
 	 */
 
 	public static void main(String[] args) {
-		
-		
+
+		// 'LocalDate' object with a specific date
+		LocalDate date = LocalDate.of(2019, 11, 25);
+
+		// 'LocalTime' object with a specific time
+		LocalTime time = LocalTime.of(6, 30, 0);
+
+		// Compare a specific date with the current date
+		System.out.printf("→ Difference in years: %d;%n", Period.between(date, LocalDate.now()).getYears());
+
+		// Compare a specific time with the current time
+		System.out.printf("\n→ Difference in seconds: %d.%n", Duration.between(time, LocalTime.now()).getSeconds());
 
 	}
 
