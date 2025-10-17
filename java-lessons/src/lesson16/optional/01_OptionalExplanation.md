@@ -146,3 +146,15 @@ These methods are used to safely interact with the value encapsulated inside the
 | **`orElseThrow(Supplier)`** | Returns the value if present. If the `Optional` is empty, it **throws the exception** specified in the parameter. |
 
 <br />
+
+---
+
+<br />
+
+<div align="center">
+    <a href="./">
+        <img src="https://ik.imagekit.io/alanbrunoscience/Aleatory/left-arrow.png?updatedAt=1760740671610" alt="Voltar para o nível anterior" style="width: 50px; height: auto; display: block; margin: 0 auto;" />
+    </a>
+</div>
+
+<br />

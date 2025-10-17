@@ -54,3 +54,15 @@ A Lambda Expression consists of three main components: a set of **parameters**, 
 The input parameters are on the left side of the Lambda Operator, and the function body is on the right side. This concise syntax significantly **reduces the volume of code**, often condensing what might be five lines of code into a single line.
 
 <br />
+
+---
+
+<br />
+
+<div align="center">
+    <a href="./">
+        <img src="https://ik.imagekit.io/alanbrunoscience/Aleatory/left-arrow.png?updatedAt=1760740671610" alt="Voltar para o nível anterior" style="width: 50px; height: auto; display: block; margin: 0 auto;" />
+    </a>
+</div>
+
+<br />

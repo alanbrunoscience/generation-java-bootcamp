@@ -13,3 +13,15 @@ To format data output to the Portuguese Brazil format or other formats, Java off
 **ATTENTION:** The **Java Real Number Formatting Classes** do not change the value or the original/default formatting of the number in a variable or Object; they only display the number on the screen, through data output methods, with the customized formatting.
 
 <br />
+
+---
+
+<br />
+
+<div align="center">
+    <a href="./">
+        <img src="https://ik.imagekit.io/alanbrunoscience/Aleatory/left-arrow.png?updatedAt=1760740671610" alt="Voltar para o nível anterior" style="width: 50px; height: auto; display: block; margin: 0 auto;" />
+    </a>
+</div>
+
+<br />

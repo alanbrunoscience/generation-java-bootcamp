@@ -85,3 +85,15 @@ Imagine you are using a banking application and your internet drops while trying
 Handling exceptions is like putting a **plan B** into your program: It ensures that even when something goes wrong, the program knows how to react without simply freezing or shutting down.
 
 <br />
+
+---
+
+<br />
+
+<div align="center">
+    <a href="./">
+        <img src="https://ik.imagekit.io/alanbrunoscience/Aleatory/left-arrow.png?updatedAt=1760740671610" alt="Voltar para o nível anterior" style="width: 50px; height: auto; display: block; margin: 0 auto;" />
+    </a>
+</div>
+
+<br />
