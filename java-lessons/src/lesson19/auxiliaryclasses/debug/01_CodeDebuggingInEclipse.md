@@ -180,7 +180,7 @@ Next, let's run the code in **Debug** mode:
    <br />
 
    <div align="center">
-    <img src="assets/img/DebuggingTheCodeDef.gif" alt="Running the Code In Debug Mode" />
+    <img src="https://ik.imagekit.io/alanbrunoscience/Aleatory/DebuggingTheCodeDef.gif?updatedAt=1760737359517" alt="Running the Code In Debug Mode" />
    </div>
 
    <br />
