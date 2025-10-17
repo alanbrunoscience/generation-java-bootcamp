@@ -79,7 +79,7 @@ If you execute the code above in the traditional way, you will observe that data
 
 <br />
 
-## 1. Executing the code in Debug Mode
+## 1. Executing The Code In Debug Mode
 
 <br />
 
