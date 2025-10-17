@@ -21,31 +21,31 @@ import java.util.Scanner;
 
 public class Example01TestDebug {
 
-	public static void main(String[] args) {
+ public static void main(String[] args) {
 
-		try (Scanner input = new Scanner(System.in)) {
+  try (Scanner input = new Scanner(System.in)) {
 
-			int[] arrayIntegers = new int[5];
+   int[] arrayIntegers = new int[5];
 
-			System.out.println("********** Data Input **********\n");
-			for (int i = 0; i < arrayIntegers.length; i++) {
-				System.out.printf("%d) Enter the integer for the position [%d]: ", (i + 1), i);
-				arrayIntegers[i] = input.nextInt();
-			}
+   System.out.println("********** Data Input **********\n");
+   for (int i = 0; i < arrayIntegers.length; i++) {
+    System.out.printf("%d) Enter the integer for the position [%d]: ", (i + 1), i);
+    arrayIntegers[i] = input.nextInt();
+   }
 
-			System.out.println("\n\n********** Data Output **********\n");
-			for (int i = 0; i < arrayIntegers.length; i++) {
-				if (i != arrayIntegers.length - 1) {
-					System.out.printf("%d) Element of the position [%d] = %d;%n", (i + 1), i, arrayIntegers[i]);
-				} else {
-					System.out.printf("%d) Element of the position [%d] = %d.%n", (i + 1), i, arrayIntegers[i]);
-				}
+   System.out.println("\n\n********** Data Output **********\n");
+   for (int i = 0; i < arrayIntegers.length; i++) {
+    if (i != arrayIntegers.length - 1) {
+     System.out.printf("%d) Element of the position [%d] = %d;%n", (i + 1), i, arrayIntegers[i]);
+    } else {
+     System.out.printf("%d) Element of the position [%d] = %d.%n", (i + 1), i, arrayIntegers[i]);
+    }
 
-			}
+   }
 
-		}
+  }
 
-	}
+ }
 
 }
 
@@ -101,7 +101,7 @@ First, we need to define a Breakpoint. Let's insert a Breakpoint on line 14, whi
 
    <div align="center"><img src="https://ik.imagekit.io/alanbrunoscience/Aleatory/Code02.png?updatedAt=1760647866134" alt="Code print"/></div>
 
-​	<br />
+​ <br />
 
 3. You will observe that a small circle (dot) will be added next to the number 14, indicating that the Breakpoint has been added.
 
@@ -155,7 +155,7 @@ Next, let's run the code in **Debug** mode:
 
 5. In the window above, you can monitor all changes to all variables in your program and identify any errors.
 
-​	<br />
+​ <br />
 
 6. Eclipse provides buttons on the main toolbar (see the image below) to control the execution of the program you're debugging. It's usually easiest to use the corresponding shortcut keys to control this execution.
 
@@ -173,15 +173,15 @@ Next, let's run the code in **Debug** mode:
 | **F7**  | **Step Return** | F7 proceeds to the caller of the currently executed method. This finishes the execution of the current method and returns to its caller. |
 | **F8**  | **Resume**      | F8 tells the Eclipse debugger to resume the execution of the program code until it reaches the next breakpoint or checkpoint. |
 
-​	<br />
+​ <br />
 
 7. In the animation below, we will see the execution of our code in **Debug** mode. Note that the **F6 command (Step Over) was used to execute the code step-by-step** starting from the Breakpoint:
 
    <br />
 
-   
-
-   <div align="center"><img src="java-lessons/src/lesson19/auxiliaryclasses/debug/assets/DebuggingTheCodeDef.gif" alt="Running the Code In Debug Mode" /></div>
+   <div align="center">
+    <img src="assets/img/DebuggingTheCodeDef.gif" alt="Running the Code In Debug Mode" />
+   </div>
 
    <br />
 
@@ -198,6 +198,4 @@ Next, let's run the code in **Debug** mode:
 
    <br />
 
-
-
-***Source: https://github.com/conteudoGeneration/cookbook_java_fullstack/blob/main/01_java/b05.md*** 
+***Source: <https://github.com/conteudoGeneration/cookbook_java_fullstack/blob/main/01_java/b05.md>***
