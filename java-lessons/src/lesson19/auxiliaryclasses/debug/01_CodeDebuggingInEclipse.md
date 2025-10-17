@@ -181,7 +181,7 @@ Next, let's run the code in **Debug** mode:
 
    
 
-   <div align="center"><img src="https://imgur.com/a/pYqxtoQ" alt="Running the Code In Debug Mode" /></div>
+   <div align="center"><img src="java-lessons/src/lesson19/auxiliaryclasses/debug/assets/DebuggingTheCodeDef.gif" alt="Running the Code In Debug Mode" /></div>
 
    <br />
 
