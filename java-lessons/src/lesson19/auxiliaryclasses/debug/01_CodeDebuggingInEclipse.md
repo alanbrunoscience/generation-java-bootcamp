@@ -111,8 +111,6 @@ First, we need to define a Breakpoint. Let's insert a Breakpoint on line 14, whi
 
    <br />
 
-------
-
 ### 1.1. Enabling Debug Mode
 
 <br />
