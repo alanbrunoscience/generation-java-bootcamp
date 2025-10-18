@@ -694,12 +694,10 @@ In the table below, we list the main methods for working with the **`Set`** Coll
 
 <br />
 
-```html
 <div align="center">
     <a href="./">
         <img src="https://ik.imagekit.io/alanbrunoscience/Aleatory/left-arrow.png?updatedAt=1760740671610" alt="Voltar para o nível anterior" style="width: 50px; height: auto; display: block; margin: 0 auto;" />
     </a>
 </div>
-```
 
 <br />
