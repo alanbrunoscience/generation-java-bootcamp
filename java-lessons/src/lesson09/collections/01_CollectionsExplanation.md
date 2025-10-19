@@ -610,7 +610,9 @@ Key characteristics and implementation details include:
 - **Ordering Varies by Implementation:**
 
   - **`HashSet`** is the most common implementation; it makes **no guarantee of element order** (it is **unordered**);
+
   - **`LinkedHashSet`** maintains the **insertion order** of elements;
+  
   - **`TreeSet`** maintains elements in **natural sort order** or by a specified **`Comparator`**.
 
 <br />
@@ -638,6 +640,7 @@ The **`HashSet`** implementation achieves its high performance for basic operati
 - **Hash Code Calculation:** When an object is added to the **`HashSet`**, the object's **`hashCode()`** method is called.
 
   - The **hash code** is an **`int` value** (a 32-bit signed integer), not specifically a "7-digit integer."
+
   - This hash code is used to determine which internal **bucket** the element will be stored in, enabling **near constant-time (*O(1)*) performance** for lookups.
 
 <br />
