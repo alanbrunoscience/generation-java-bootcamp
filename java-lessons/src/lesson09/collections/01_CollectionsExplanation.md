@@ -101,7 +101,9 @@ Each collection type has different advantages:
 <br />
 
 1. Some are faster for **SEARCHING** an element (e.g., **`HashSet`**);
+
 2. Others maintain the **ORDER OF ELEMENTS** (e.g., **`ArrayList`**);
+
 3. Others are organized as key/value pairs (e.g., **`HashMap`**).
 
 <br />
@@ -259,7 +261,9 @@ Collections Framework
 <br />
 
 1. Accepts repeated elements;
+
 2. Maintains insertion order;
+
 3. Accesses elements by index (**`get(0)`**, **`get(1)`**, ...).
 
 <br />
@@ -627,7 +631,7 @@ The **`HashSet`** implementation achieves its high performance for basic operati
 
 - **Internal Storage:** A **`HashSet`** internally uses a **`HashMap`** to store its elements. When you create a **`HashSet`** object, an associated **`HashMap`** object is created.
 
-​ <br />
+​<br />
 
 - **Key-Value Mapping:**
 
@@ -635,7 +639,7 @@ The **`HashSet`** implementation achieves its high performance for basic operati
 
   - The **value** associated with these keys is a constant, placeholder object (often referred to as **`PRESENT`**).
 
-  <br />
+<br />
 
 - **Hash Code Calculation:** When an object is added to the **`HashSet`**, the object's **`hashCode()`** method is called.
 
