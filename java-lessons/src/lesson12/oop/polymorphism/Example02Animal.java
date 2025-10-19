@@ -3,11 +3,14 @@ package lesson12.oop.polymorphism;
 public class Example02Animal {
 
 	/**
-	 * Overriding * → Overriding occurs when a subclass (child class) has the same
+	 * Overriding
+	 *
+	 * → Overriding occurs when a subclass (child class) has the same
 	 * method signature (same name, same parameters, same return type) as a method
 	 * in its superclass (parent class). This allows a subclass to provide a
 	 * specific implementation for a method that is already defined in its
 	 * superclass. This is a form of Runtime Polymorphism.
+	 *
 	 */
 
 	// Parent class (Superclass)
@@ -62,4 +65,5 @@ public class Example02Animal {
 		Animal myDog = new Dog();
 		myDog.makeSound(); // Output: The dog barks. (Overridden method is executed)
 	}
+
 }
