@@ -6,7 +6,7 @@
 
 <br />
 
-⚠️ **Array Problems:** when we create an array in Java, it has a **fixed size**. Example:
+⚠️ **Array Limitations:** When you create an array in Java, it has a **fixed size** determined at initialization. Example:
 
 <br />
 
@@ -33,7 +33,7 @@ This means that if you need to store more elements later, you cannot increase th
 
 <br />
 
-Java has a library called **Collections** (in the `java.util` package) that solves this problem. It allows **storing data flexibly (without a fixed size) and with ready-made tools (methods)** for:
+The **Java Collections Framework** (JCF) is a set of interfaces and classes in the **`java.util`** package that addresses these limitations. It allows **storing data flexibly (without a fixed size) and with ready-made tools (methods)** for:
 
 <br />
 
@@ -49,7 +49,7 @@ Java has a library called **Collections** (in the `java.util` package) that solv
 
 <br />
 
-Collections use arrays "behind the scenes," but they hide the complicated part of automatically increasing/decreasing the size (encapsulation). Thus, **the data stored in the collection is encapsulated and access to the data is only possible through predefined methods**.
+Internally, many collection implementations (like **`ArrayList`**) use arrays. They automatically handle resizing the underlying array, hiding this complexity from the user (**encapsulation**). Access to the elements is managed through the collection's methods.
 
 <br />
 
@@ -112,7 +112,7 @@ Each collection type has different advantages:
 
 <br />
 
-Collections **do not directly accept primitive types**. For example, you **cannot** do:
+Collections **cannot store primitive types directly**. They require **objects** to be used as type parameters (generics):
 
 <br />
 
@@ -154,7 +154,7 @@ System.out.println(list); // [10, 20]
 
 <br />
 
-> **Wrapper** = "wrapping" the primitive in an object, so that it works in collections and has extra methods. In other words, **Wrapper** means to wrap. ***They are Classes that add functionality to primitive types***. The Wrapper Class **transforms a primitive into an Object and adds Methods**.
+> **Wrapper** =  A class (e.g., **`Integer`**, **`Boolean`**) that encapsulates a primitive type value within an object. This allows primitive values to be used in generic types (like **`Collections`**) and provides useful utility methods (e.g., **`Integer.parseInt()`**). The process of converting a primitive to a Wrapper object is called **Autoboxing**.
 
 <br />
 
@@ -235,8 +235,8 @@ Collections Framework
  │     │     │     ├── LinkedHashSet (insertion order)
  │     │     │     └── TreeSet (sorted)
  │     │     │
- │     │     └── Queue (queue - FIFO: First In, First Out)
- │     │         ├── LinkedList
+ │     │     └── Queue (interface for FIFO — First In, First Out — behavior)
+ │     │         ├── LinkedList (implements 'List' and 'Queue'/'Deque')
  │     │         ├── PriorityQueue (priority order)
  │     │         └── ArrayDeque (Deque: double-ended queue – inserts/removes on both sides)
  │     │
@@ -268,9 +268,9 @@ Collections Framework
 
 <br />
 
-• **`ArrayList`**: fast for searching elements;
+• **`ArrayList`**: **Fast for element access by index** (random access: ***O(1)***), but generally slower for insertions/removals in the middle (***O(n)***);
 
-• **`LinkedList`**: fast for inserting/removing at any position.
+• **`LinkedList`**: **Fast for insertions/removals at the beginning or end** (***O(1)***). Inserting/removing at a specific position is ***O(n)*** to find the position, then ***O(1)*** for the actual link update.
 
 <br />
 
@@ -324,7 +324,7 @@ System.out.println(list); // [Ana, Ana]
 
 <br />
 
-The **`ArrayList`** Collection is the natural choice when a resizable vector is needed, which is much more efficient for reading, as it is internally implemented with vectors, making it ideal for random access to the stored data:
+The **`ArrayList`** class is the natural choice when a dynamic, resizable list is needed. It is internally implemented using an **array**, making it highly efficient for **random access** (retrieving an element by its **index**, which is an ***O(1)*** operation).
 
 <br />
 
@@ -337,7 +337,7 @@ ArrayList<T> grades = new ArrayList<T>();
 
 • The default no-argument constructor creates a new, empty **`ArrayList`** Class Object;
 
-• The item **`<T>`** in Java represents a **Java Type Generic**. It is used to define the type of Object that will be stored in the Collection. The data type must necessarily be an Object, which can be from a Wrapper Class or a Class created by the developer.
+• The item **`<T>`** in Java represents a **Type Parameter** used in **Generics**. It is used to define the type of object that will be stored in the Collection. The data type must necessarily be an object, which can be from a **Wrapper Class** or a **Class created by the developer**.
 
 <br />
 
@@ -460,11 +460,11 @@ The **ArrayList** Collection always **preserves the order in which the objects w
 
 <br />
 
-The **`Iterable`** interface is the root of the entire collection hierarchy, which means that every class and interface implements it. The main function of an iterator is to **allow the user to traverse all the objects of any of the Collections**, present in the Collections Package, as if they were simple sequences of data items. It is like a "cursor" that navigates element by element.
+The **`Iterable`** interface is the **root interface for the enhanced `for` loop (or "for-each" loop)**. The **`Collection`** interface is the root of the Collections **hierarchy**, and it extends **`Iterable`**. The main function of an iterator is to **allow the user to traverse all the objects of any of the Collections**, present in the Collections Package, as if they were simple sequences of data items. It is like a "cursor" that navigates element by element.
 
 <br />
 
-The Iterator should be used whenever we want to enumerate elements in all interfaces implemented by Collections: **`Set`**, **`List`**, **`Queue`**, **`Dequeue`**, and all classes implementing the **`Map`** interface.
+The **`Iterator`** is used to traverse (**`Set`**, **`List`**, **`Queue`**, **`Deque`**) elements. **`Map`** is not a sub-interface of **`Collection`**, so you iterate over its **key set**, **value collection**, or **entry set**.
 
 <br />
 
@@ -519,17 +519,9 @@ The item **`<T>`** in Java represents a **Java Type Generic**. It is used to def
 
 <br />
 
-• The Iterator only supports forward direction iteration, meaning unidirectional;
+• The **`Iterator`** only supports **forward** iteration (unidirectional). The **`ListIterator`** (specific to the `List` interface) supports bidirectional iteration;
 
-• The Iterator **DOES NOT** support parallel element iteration, meaning it only supports sequential iteration.
-
-<br />
-
-> 📌 ***Tip***
->
->
->
-> To perform parallel iteration, we use another Interface, called **`SplitIterator`**, which divides the Collection into smaller parts and traverses these parts simultaneously.
+• The **`Iterator`** does not natively support **parallel** processing. The **`Spliterator`** interface is used to traverse elements and is designed to support **parallel traversal and bulk operations**, making it the foundation for parallel streams.
 
 <br />
 
@@ -599,31 +591,53 @@ public class Example02ArrayListAndIterator {
 
 <br />
 
-**`Set`** is an **UNORDERED COLLECTION OF OBJECTS**, which **DOES NOT ALLOW THE STORAGE OF DUPLICATE VALUES**, meaning it allows **ONLY UNIQUE VALUES**. This interface contains methods inherited from the Collection Interface and adds a feature that restricts the insertion of duplicate elements. This class also allows the insertion of a single null element (NULL), although it is not recommended.
+The **`Set`** interface, part of the **Java Collections Framework**, defines a collection that **cannot contain duplicate elements**. It is used to model mathematical sets.
 
 <br />
 
-The objects we insert into the **`Set`** Collection **WILL NOT, NECESSARILY, BE INSERTED IN THE SAME ORDER** and this order is not constant over time. The **`Set`** Collection **DOES NOT HAVE A METHOD TO GET THE OBJECT FROM ITS INDEX**, as we saw in the List Collection.
+Unlike **`List`**, **`Set`** implementations generally do not guarantee the order of elements, and critically, **do not support access by index** (like `get(index)`), as the concept of a fixed position contradicts its mathematical nature.
 
 <br />
 
-Objects are inserted into the **`Set`** **Collection** based on their **HASHCODE**. The **HASHCODE** is a 7-digit integer, calculated from the **Hashcode()** Method. From the Object's **Hashcode**, obtained by the **Hashcode()** method, the **`Set`** Collection determines the position where the Object will be stored in the **HashMap**. Since it is a calculated number, **THE POSITION OF THE ELEMENT WILL BE RANDOM**.
+Key characteristics and implementation details include:
 
 <br />
 
-**`HashSet`** internally uses **HashMap** to store its elements. Whenever you create a **`HashSet`** object, an associated **HashMap** object is also created. This **HashMap** object is used to store the elements inserted into the **`HashSet`**. The elements added to the **`HashSet`** are stored as keys in this **HashMap** object. The value associated with these keys will be a constant (PRESENT).
+- **No Duplicates:** The primary rule is that a **`Set`** ensures every element is unique.
+- **Ordering Varies by Implementation:**
+  - **`HashSet`** is the most common implementation; it makes **no guarantee of element order** (it is **unordered**);
+  - **`LinkedHashSet`** maintains the **insertion order** of elements;
+  - **`TreeSet`** maintains elements in **natural sort order** or by a specified **`Comparator`**.
 
 <br />
 
-In summary, for each object inserted into the **`Set`** Collection, the **Hash** function is executed, that is, the object's **hashcode()** is calculated. From this calculation, the object's position in the HashMap is defined, without considering the order of insertion. The elements that were added to the Set Collection are inserted into the HashMap in the **"Key"** property of the HashMap item, while the **"Value"** property will always receive the **PRESENT** constant.
+#### How `HashSet` Works Internally (Hashing)
 
 <br />
 
-> 📌 **Attention!**
->
->
->
-> The focus of the **`Set`** Collection is not the ordering and position of element insertion in the Collection, but rather to ensure the exclusivity of its elements, i.e., unique values, without repetitions.
+The **`HashSet`** implementation achieves its high performance for basic operations (add, remove, contains) by using a technique called **hashing**.
+
+<br />
+
+- **Internal Storage:** A **`HashSet`** internally uses a **`HashMap`** to store its elements. When you create a **`HashSet`** object, an associated **`HashMap`** object is created.
+
+​ <br />
+
+- **Key-Value Mapping:**
+
+  - The elements you add to the **`HashSet`** are stored as the **keys** in the internal **`HashMap`**.
+
+  - The **value** associated with these keys is a constant, placeholder object (often referred to as **`PRESENT`**).
+
+  <br />
+
+- **Hash Code Calculation:** When an object is added to the **`HashSet`**, the object's **`hashCode()`** method is called.
+  - The **hash code** is an **`int` value** (a 32-bit signed integer), not specifically a "7-digit integer."
+  - This hash code is used to determine which internal **bucket** the element will be stored in, enabling **near constant-time (*O(1)*) performance** for lookups.
+
+<br />
+
+In summary, for **`HashSet`**, the focus is on **ensuring the exclusivity of its elements** using the efficiency of hashing, rather than maintaining a specific order or position.
 
 <br />
 
@@ -640,11 +654,7 @@ Set<T> setNumbers = new HashSet<T>();
 
 <br />
 
-In our course, we will study the **`Set`** Collection, Subclass **`HashSet`**. The default no-argument constructor creates a new, empty **`HashSet`** Class object.
-
-<br />
-
-The item **`<T>`** in Java represents a **Java Type Generic**. It is used to define the type of object that will be stored in the Collection. The data type must necessarily be an object, which can be from a **Wrapper Class** or a **Class created by the developer**.
+Here, **`Set`** is the interface, and **`HashSet`** is a concrete class implementing that interface. The item **`<T>`** in Java represents a **Type Parameter** used in **Generics** to define the type of object that will be stored in the Collection (it must be a **Wrapper Class** or a **developer-defined Class**).
 
 <br />
 
@@ -654,19 +664,19 @@ The item **`<T>`** in Java represents a **Java Type Generic**. It is used to def
 
 <br />
 
-In the table below, we list the main methods for working with the **`Set`** Collection:
+The **`Set`** interface inherits many standard methods from the **`Collection`** interface, including:
 
 <br />
 
 | Method           | Description                                                  |
 | ---------------- | ------------------------------------------------------------ |
-| add(Object)      | Adds an object to the Set Collection.                        |
-| remove(Object)   | Deletes the Object stored in the Set Collection.             |
-| clear()          | Clears the Set Collection.                                   |
-| size()           | Returns the size of the Set Collection (number of stored elements). |
-| isEmpty()        | Returns **"true"** if the Set Collection is empty.           |
-| contains(Object) | Returns **"true"** if the Object exists in the **`Set`** Collection. |
-| hashCode()       | Returns the **HashCode** of the element.                     |
+| add(Object)      | Adds an object to the **`Set`**. Returns **`true`** if the element was added (i.e., it was not a duplicate), or **`false`** otherwise. |
+| remove(Object)   | Deletes the specified object from the **`Set`**.             |
+| clear()          | Removes all elements from the **`Set`**.                     |
+| size()           | Returns the number of elements in the **`Set`**.             |
+| isEmpty()        | Returns **`true`** if the **`Set`** contains no elements.    |
+| contains(Object) | Returns **`true`** if the specified object exists in the **`Set`**. |
+| hashCode()       | Returns the hash code value for the **`Set`** (equal to the sum of the hash codes of all elements). |
 
 <br />
 
@@ -676,17 +686,16 @@ In the table below, we list the main methods for working with the **`Set`** Coll
 
 <br />
 
-| **Concept**     | **Corrected Definition (English)**                           |
+| **Concept**     | **Definition**                                               |
 | --------------- | ------------------------------------------------------------ |
-| **Collections** | Interfaces in Java used to manipulate dynamic, flexible-sized groups of data of the same type. |
-| **Array**       | A native data structure that holds a **fixed number** of values of a single type. |
-| **ArrayList**   | The **`List`** implementation that is **backed by a dynamic array**. It preserves insertion order and allows fast random access by index. |
-| **Queue**       | An Interface defining the **FIFO** (First In - First Out) behavior, where the first element inserted is the first one to be retrieved/removed. |
-| **Set**         | An Interface ensuring the collection stores only **unique values** (no duplicates). |
-| **HashSet**     | The most common **implementation** of `Set`, using hash tables internally to guarantee uniqueness and fast lookups. |
-| **Map**         | A structure used for **fast data retrieval**. It stores data in the form of **key-value pairs** (and is not formally part of the Collection Interface). |
-| **HashMap**     | The most used **implementation** of `Map`, based on hashing for near constant-time (O(1)) data access. |
-| **Iterator**    | An **Interface** that provides a standardized way to traverse (iterate over) all objects in a Collection and is the explicit mechanism used for safe removal of elements during iteration. |
+| **Collections** | The **root interface** of the Collections Framework, used to manipulate **dynamic, flexible-sized groups of objects**. |
+| **Array**       | A native data structure that holds a **fixed number** of elements of a single type, **primitives or objects**. |
+| **ArrayList**   | The **`List`** implementation that uses a **resizable array** internally. It preserves insertion order and offers **O(1)** (constant-time) access by index. |
+| **Queue**       | An Interface defining the **FIFO** (First In - First Out) behavior, where elements are typically added to the **tail** and removed from the **head**. |
+| **Set**         | An Interface ensuring the collection stores only **unique elements**; it **does not support index-based access**. |
+| **Map**         | An independent interface (not a sub-interface of **`Collection`**) that stores data as **key-value pairs**, where each **key is unique**. |
+| **HashMap**     | The most used **implementation** of **`Map`**, based on hashing for near **constant-time (*O(1)*) performance** on basic operations like **`get`** and **`put`**. |
+| **Iterator**    | An **Interface** providing a standardized, **unidirectional** mechanism to traverse a collection and perform **safe element removal** during iteration. |
 
 <br />
 
